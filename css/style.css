@@ -1,0 +1,54 @@
+:root {
+    --verde-forte:#58692e;
+    --laranja-forte:#D56B1D;
+    --verde-medio:#A0AA60;
+    --verde-claro:#BFBF5E;
+    --bege-background:#ECDEC3;
+}
+
+body{
+    background-color: var(--bege-background);
+    text-align: center;
+}
+
+h1 {
+    color: var(--verde-forte);
+    font-size: 60px;
+}
+
+h2{
+    color: var(--laranja-forte);
+    font-size: 40px;
+}
+
+.beneficios {
+    font-size: large;
+}
+
+.input {
+    width: 50%;
+    height: 3rem;
+}
+
+.botao {
+    border-radius: 50px;
+    height: 3rem;
+    width: 50%;
+    background-color: var(--laranja-forte);
+}
+
+footer {
+    display: flex;
+    font-size: 16px;
+    padding: 1rem;
+    background-color: var(--verde-medio);
+    justify-content: center;
+}
+
+.lista_termos_footer {
+    display:flex ;
+}
+
+.link_termos_footer {
+ display: flex;
+}
