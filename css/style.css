@@ -1,44 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 :root {
     --verde-forte:#58692e;
     --laranja-forte:#D56B1D;
+    --laranja-medio:#ec8c47;
     --verde-medio:#A0AA60;
     --verde-claro:#BFBF5E;
+    --verde-nude:#9eb481;
+    --marrom-escuro:#7f361f;
     --bege-background:#ECDEC3;
+    --preto:#000000;
+    --fonte-principal: $main-font: 'Josefin Sans';
+}
+
+.cabecalho_principal_logo {
+    display: inline-block;
+    vertical-align: middle;
+    position:relative;
+    width: 8rem;
+    justify-content: space-around;
+}
+
+.cabecalho_principal_nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.cabecalho_principal_nav_link {
+    text-decoration: none;
+    color: var(--verde-forte);
+    font-weight: bold;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+
+:hover.cabecalho_principal_nav_link {
+    color: var(--marrom-escuro);
+}
+
+.cabecalho_principal_acessar_conta_link {
+    background-color:var(--laranja-forte);
+    color: var(--marrom-escuro);
+    text-decoration: none;
+    border: solid;
+    padding: 0.7rem;
+    border-radius: 8px;
+    margin: 1.5rem;
+}
+
+.cabecalho_principal_criar_conta_link {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--marrom-escuro);
+}
+
+.container_cabecalho {
+    background-color: var(--verde-nude);
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-bottom: solid;
+    border-color: var(--verde-forte);
 }
 
 body{
     background-color: var(--bege-background);
     text-align: center;
+    font-family: "Josefin Sans", 'sans-serif';
+}
+
+.entrada_principal {
+    display: inline-block;
+    align-content: flex-end;
 }
 
 h1 {
-    color: var(--verde-forte);
-    font-size: 60px;
+    color: var(--preto);
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    text-align:center;
 }
 
-h2{
-    color: var(--laranja-forte);
-    font-size: 40px;
+p{
+    color:var(--marrom-escuro);
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+
+.imagem_vegana1 {
+    width: 100%;
+    height: 50%;
+    animation: move 1.5s linear forwards;
+    position:relative;
+}
+
+@keyframes move {
+ 0%  {transform: translate(-100%, 0) }
 }
 
 .beneficios {
     font-size: large;
 }
 
-.input {
-    width: 50%;
-    height: 3rem;
+.buscar_localizacao_container {
+    display: inline-block;
+    padding: 2rem;
+}
+
+.buscar_localizacao_input {
+    padding: 1.1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 40%;
+    margin-bottom: 2rem;
+    border-radius: 15px;
+    background-color: var(--verde-claro);
 }
 
 .botao {
-    border-radius: 50px;
+    border-radius: 15px;
     height: 3rem;
     width: 50%;
     background-color: var(--laranja-forte);
+    font-family: "Josefin Sans", 'sans-serif';
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 1rem;
 }
 
+
 footer {
-    display: flex;
     font-size: 16px;
     padding: 1rem;
     background-color: var(--verde-medio);
@@ -46,9 +137,9 @@ footer {
 }
 
 .lista_termos_footer {
-    display:flex ;
+    display: inline-block;
 }
 
 .link_termos_footer {
- display: flex;
+ display: inline-block;
 }

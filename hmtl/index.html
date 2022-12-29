@@ -4,28 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Veg Place</title>
 </head>
 <body>
-    <header>
-        <img src="/img/logo-vegplace.png" alt="Vegan Place">
-        <h1>Ser Vegano é uma Delícia !</h1>
-        <h2>Comida vegana a um clique de você</h2>
+    <header class="cabecalho_principal">
+        <div class="container_cabecalho">
+                <img src="/img/logo-vegplace.png" alt="Vegan Place" class="cabecalho_principal_logo">
+            <nav class="cabecalho_principal_nav">
+                <a class="cabecalho_principal_nav_link" href="#">Nossos Restaurantes</a>
+                <a class="cabecalho_principal_nav_link" href="#">Seja VegPremium</a>
+                <a class="cabecalho_principal_nav_link" href="#">Nosso APP</a>
+                <a class="cabecalho_principal_nav_link" href="#">Quem Somos</a>
+            </nav>
+            <nav>
+                <a class="cabecalho_principal_criar_conta_link" href="#">Criar Conta</a>
+                <a class="cabecalho_principal_acessar_conta_link" href="#">Entrar</a>
+            </nav>
+        </div>
+
     </header>
-    <img src="/img/pratovegano.jpg">
+    <div>
+    <div class="entrada_principal">
+            <h1>Comida vegana a um clique de distância.</h1>
+            <p>Encontre os melhores restaurante vegano da sua região</p>
+        </div>
+        <div class="buscar_localizacao_container">
+            <input class="buscar_localizacao_input" value placeholder="Endereço de entrega e número">
+            <input type="checkbox" class="checkbox"> Usar minha localização atual
+            <button class="botao">Buscar restaurantes proximos de você</button>
+        </div>
+    </div>
+
+    <img src="/img/pratos-veganos.jpg" class="imagem_vegana1" id="imagem_vegana1" alt="Pessoas se servindo de alimentos veganos bem coloridos">
     <ul class="beneficios">Benefícios de ser uma pessoa vegana:
         <li>Estilo de vida voltado pra questões ambientais</li>
         <li>Compactue com a defesa da causa animal</li>
         <li>Conheça sabores novos</li>
         <li>Longevidade e qualidade de vida</li>
     </ul>
-    <div>
-        <input class="input" value placeholder="Endereço de entrega e número">
-        <input type="checkbox"> Usar minha localização atual
-    </div>
-        <button class="botao">Buscar restaurantes proximos de você</button>
+
     <footer>
         <div class="descricao_footer">
             © Copyright 2023 - Veg Place - Todos os direitos reservados. Veg Place Plataforma Vegana LTDA.
@@ -43,5 +65,6 @@
             </ul>
         </div>
     </footer>
+    <script src="/js/main.js"></script>
 </body>
 </html>
