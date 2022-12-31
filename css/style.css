@@ -8,7 +8,7 @@
     --verde-claro:#BFBF5E;
     --verde-nude:#9eb481;
     --marrom-escuro:#7f361f;
-    --bege-background:rgb(236, 222, 195);
+    --bege-background:#ecdec3;
     --preto:#000000;
     --fonte-principal: $main-font: 'Josefin Sans';
     --fonte-h1: font-family: 'Rubik', sans-serif;
@@ -40,13 +40,17 @@
 }
 
 .cabecalho_principal_acessar_conta_link {
-    background-color:var(--laranja-forte);
-    color: var(--marrom-escuro);
+    background-color:var(--marrom-escuro);
+    color: var(--bege-background);
     text-decoration: none;
-    border: solid;
+    border: none;
     padding: 0.7rem;
     border-radius: 8px;
     margin: 1.5rem;
+}
+
+:hover.cabecalho_principal_acessar_conta_link {
+    background-color: var(--laranja-forte);
 }
 
 .cabecalho_principal_criar_conta_link {
@@ -54,6 +58,10 @@
     font-size: 1.1rem;
     text-decoration: none;
     color: var(--marrom-escuro);
+}
+
+:hover.cabecalho_principal_criar_conta_link {
+    color: var(--preto);
 }
 
 .container_cabecalho {
@@ -92,14 +100,34 @@ body{
     font-family: 'Rubik', sans-serif;
 }
 
-p{
+h2 {
+    padding: 3rem;
+    color: var(--preto);
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.descricao1 {
     color:var(--marrom-escuro);
     font-weight: bold;
     font-size: 1.1rem;
     padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+p{
+    color:var(--marrom-escuro);
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: .5rem;
 }
 
 .imagem_vegana1 {
+    color: var(--marrom-escuro);
+    padding: 1rem;
+    border: solid;
     width: 100%;
     height: 50%;
     animation: move 1.5s linear forwards;
@@ -110,34 +138,50 @@ p{
  0%  {transform: translate(-100%, 0) }
 }
 
+.mapa {
+    width: 100%;
+}
+
+mapa_caixa {
+
+}
+
 .beneficios {
     font-size: large;
 }
 
 .buscar_localizacao_container {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
     padding: 2rem;
 }
 
 .buscar_localizacao_input {
+    
     padding: 1.1rem;
     font-size: 1rem;
     font-weight: bold;
     width: 40%;
-    margin-bottom: 2rem;
-    border-radius: 15px;
+    margin: 2rem;
+    border-radius: 5px;
     background-color: var(--verde-claro);
 }
 
 .botao {
-    border-radius: 15px;
-    height: 3rem;
-    width: 50%;
-    background-color: var(--laranja-forte);
+    color: var(--bege-background);
+    background-color: var(--marrom-escuro);
     font-family: "Josefin Sans", 'sans-serif';
     font-weight: bold;
-    font-size: 1.2rem;
-    padding: 1rem;
+    font-size: 1.54rem;
+    margin: 1rem;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 1.3rem;
+}
+
+:hover.botao {
+    background-color: var(--laranja-forte);
 }
 
 

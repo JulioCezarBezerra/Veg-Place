@@ -31,20 +31,44 @@
         </div>
 
     </header>
-    <div class="entrada_principal">
+    <section class="entrada_principal">
             <img src="/img/foto-entregador.png" alt="ilustração de um entregador de comida em uma moto" class="foto_entregador">
             <div>
                 <h1 class="titulo_entrada">VegPremium Grátis no primeiro mês!</h1>
-                <p>Com o plano VegPremium, tenha frete grátis em suas compras e 15% de desconto em todo o site.</p>
+                <p class="descricao1">Com o plano VegPremium, tenha frete grátis em suas compras e 15% de desconto em todo o site.</p>
+                <button class="botao">Seja VegPremium</button>
             </div>
-    </div>
-    <div class="buscar_localizacao_container">
-        <input class="buscar_localizacao_input" value placeholder="Endereço de entrega e número">
-        <input type="checkbox" class="checkbox"> Usar minha localização atual
-        <button class="botao">Buscar restaurantes proximos de você</button>
-    </div>
+    </section>
+    <img src="/img/pratos-veganos.jpg" class="imagem_vegana1" id="imagem_vegana1" alt="4 pratos veganos coloridos e bem elaborados">
+    <section class="mapa">
+        <h2>Aproveite os benefícios de ser VegPremium em todo lugar!</h2>
+        <p>Delivery, Take Away ou tendo a experiencia de conhecer um novo restaurante,</p>
+        <p>Clientes VegPremium tem desconto em qualquer tipo de comprar em restaurantes parceiros
+         </p>
+         <div class="mapa_caixa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117575.9081496654!2d-43.25778191873188!3d-22.941124048938118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante%20vegano!5e0!3m2!1spt-BR!2sbr!4v1672438706343!5m2!1spt-BR!2sbr" width="1000" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="buscar_localizacao_container">
+            <input class="buscar_localizacao_input" value placeholder="Endereço de entrega e número">
+            <button class="botao">Buscar</button>
+        </div>
+    </section>
+    <section class="carrossel">
+        <h2 class="carrossel_titulo">Os melhores restaurantes</h2>
+        <div class="container_carrossel" id="container_carrossel">
+            <img src="/img/img1.jpg" alt="hamburguer vegano cortado ao meio">
+            <img src="/img/img2.jpg" alt="sopa vegana acompanhada de mini-pães">
+            <img src="/img/img3.jpg" alt="hamburguer vegano">
+            <img src="/img/img4.jpg" alt="salada de abacate com legumes empanados">
+            <img src="/img/img5.webp" alt="5 pratos veganos diversos">
+            <img src="/img/img6.jpg" alt="prato de massa vegana">
+            <img src="/img/img7.jpg" alt="bruschettas veganas">
+            <img src="/img/img8.jfif" alt="batatas rusticar com molho branco">
+            <img src="/img/img9.jpg" alt="prato de arroz, tofu e salada">
+            <img src="/img/img10.jpg" alt="prato de madeira com salada bem temperada">
+        </div>
+    </section>
 
-    <img src="/img/pratos-veganos.jpg" class="imagem_vegana1" id="imagem_vegana1" alt="Pessoas se servindo de alimentos veganos bem coloridos">
     <ul class="beneficios">Benefícios de ser uma pessoa vegana:
         <li>Estilo de vida voltado pra questões ambientais</li>
         <li>Compactue com a defesa da causa animal</li>
@@ -70,5 +94,14 @@
         </div>
     </footer>
     <script src="/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
+      });</script>
 </body>
 </html>
