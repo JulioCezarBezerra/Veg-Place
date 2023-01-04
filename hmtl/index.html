@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
     <title>Veg Place</title>
@@ -32,7 +36,6 @@
 
     </header>
     <section class="entrada_principal">
-            <img src="/img/foto-entregador.png" alt="ilustração de um entregador de comida em uma moto" class="foto_entregador">
             <div>
                 <h1 class="titulo_entrada">VegPremium Grátis no primeiro mês!</h1>
                 <p class="descricao1">Com o plano VegPremium, tenha frete grátis em suas compras e 15% de desconto em todo o site.</p>
@@ -54,18 +57,39 @@
         </div>
     </section>
     <section class="carrossel">
-        <h2 class="carrossel_titulo">Os melhores restaurantes</h2>
-        <div class="container_carrossel" id="container_carrossel">
-            <img src="/img/img1.jpg" alt="hamburguer vegano cortado ao meio">
-            <img src="/img/img2.jpg" alt="sopa vegana acompanhada de mini-pães">
-            <img src="/img/img3.jpg" alt="hamburguer vegano">
-            <img src="/img/img4.jpg" alt="salada de abacate com legumes empanados">
-            <img src="/img/img5.webp" alt="5 pratos veganos diversos">
-            <img src="/img/img6.jpg" alt="prato de massa vegana">
-            <img src="/img/img7.jpg" alt="bruschettas veganas">
-            <img src="/img/img8.jfif" alt="batatas rusticar com molho branco">
-            <img src="/img/img9.jpg" alt="prato de arroz, tofu e salada">
-            <img src="/img/img10.jpg" alt="prato de madeira com salada bem temperada">
+        <h2 class="carrossel_titulo">Os melhores restaurantes proximos de você</h2>
+            <div class="swiper">
+                
+                <div class="swiper-buttons">
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="swiper-wrapper">
+                    
+                    <div class="swiper-slide" data-swiper-autoplay="2000"><a class="titulo_swiper">Ali Babá Veganos</a>
+                        <img src="/img/img1.jpg" alt="hamburguer vegano cortado ao meio"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Natur Vegano</a><img src="/img/img2.jpg" alt="sopa vegana acompanhada de mini-pães"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Dinno Vegan</a><img src="/img/img3.jpg" alt="hamburguer vegano"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Central Wes Vegan</a><img src="/img/img4.jpg" alt="salada de abacate com legumes empanados"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Vegetariano Social Clube</a><img src="/img/img5.webp" alt="5 pratos veganos diversos"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Tita Bistrô</a><img src="/img/img6.jpg" alt="prato de massa vegana"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Teva</a><img src="/img/img7.jpg" alt="bruschettas veganas"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Prana Vegetariano</a><img src="/img/img8.jfif" alt="batatas rusticar com molho branco"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Vegup Gastronomia</a><img src="/img/img9.jpg" alt="prato de arroz, tofu e salada"></div>
+
+                    <div class="swiper-slide"><a class="titulo_swiper">Zagos Veg</a><img src="/img/img10.jpg" alt="prato de madeira com salada bem temperada"></div>
+                </div>
+                
+            
+            </div>
         </div>
     </section>
 
@@ -97,10 +121,13 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>const swiper = new Swiper('.swiper', {
         spaceBetween: 10,
-        slidesPerView: 3,
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
+        slidesPerView: 4,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        autoplay: {
+            delay: 3000,
         },
       });</script>
 </body>

@@ -8,7 +8,7 @@
     --verde-claro:#BFBF5E;
     --verde-nude:#9eb481;
     --marrom-escuro:#7f361f;
-    --bege-background:#ecdec3;
+    --bege-background:#ecdec3c7;
     --preto:#000000;
     --fonte-principal: $main-font: 'Josefin Sans';
     --fonte-h1: font-family: 'Rubik', sans-serif;
@@ -142,14 +142,6 @@ p{
     width: 100%;
 }
 
-mapa_caixa {
-
-}
-
-.beneficios {
-    font-size: large;
-}
-
 .buscar_localizacao_container {
     display: flex;
     justify-content: center;
@@ -184,6 +176,41 @@ mapa_caixa {
     background-color: var(--laranja-forte);
 }
 
+.swiper-slide {
+    background-color: var(--marrom-escuro);
+    padding: 2em 0 1em 0;
+    border: solid;
+    border-radius: 10px;
+}
+
+.titulo_swiper {
+    padding: 3rem 3rem 3rem;
+    color: var(--preto);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.swiper-slide img {
+    margin: 1em 0 0 0;
+    width: 70%;
+    border: solid;
+    border-radius: 40px;
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    color: var(--preto);
+}
+
+
+.beneficios {
+    font-size: large;
+    margin-top: 7em;
+}
 
 .footer {
     display: flex;
