@@ -1,0 +1,18 @@
+.footer {
+    display: flex;
+    font-size: 16px;
+    padding: 1rem;
+    background-color: var(--verde-medio);
+    justify-content:space-around;
+    justify-content: baseline;
+    border-top: solid;
+    border-color: var(--verde-forte);
+}
+
+.links_termos_footer {
+    display: flex;
+}
+
+.link_termos_footer {
+    margin: 1.3rem;
+}

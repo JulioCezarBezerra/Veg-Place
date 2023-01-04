@@ -1,0 +1,85 @@
+.imagem_vegana1 {
+    color: var(--marrom-escuro);
+    padding: 1rem;
+    border: solid;
+    width: 100%;
+    height: 50%;
+    animation: move 1.5s linear forwards;
+    position:relative;
+}
+
+@keyframes move {
+ 0%  {transform: translate(-100%, 0) }
+}
+
+.mapa {
+    width: 100%;
+}
+
+.buscar_localizacao_container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.buscar_localizacao_input {
+    
+    padding: 1.1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 40%;
+    margin: 2rem;
+    border-radius: 5px;
+    background-color: var(--verde-claro);
+}
+
+.botao {
+    color: var(--bege-background);
+    background-color: var(--marrom-escuro);
+    font-family: "Josefin Sans", 'sans-serif';
+    font-weight: bold;
+    font-size: 1.54rem;
+    margin: 1rem;
+    width: auto;
+    border: none;
+    border-radius: 5px;
+    padding: 1.3rem;
+}
+
+:hover.botao {
+    background-color: var(--laranja-forte);
+}
+
+.swiper {
+    margin: 0 0 3em 0;
+}
+
+.swiper-slide {
+    background-color: var(--marrom-escuro);
+    padding: 2em 0 1em 0;
+    border: solid;
+    border-radius: 10px;
+}
+
+.titulo_swiper {
+    padding: 3rem 3rem 3rem;
+    color: var(--preto);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.swiper-slide img {
+    margin: 1em 0 0 0;
+    width: 70%;
+    border: solid;
+    border-radius: 40px;
+
+}
+
+.swiper-button-prev, .swiper-button-next {
+    position: absolute;
+    color: var(--preto);
+}

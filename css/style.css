@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
+@import url(header.css);
+@import url(nossosrestaurantes.css);
+@import url(vegpremium.css);
+@import url(footer.css);
 :root {
     --verde-forte:#58692e;
     --laranja-forte:#D56B1D;
     --laranja-medio:#ec8c47;
     --verde-medio:#A0AA60;
     --verde-claro:#BFBF5E;
-    --verde-nude:#9eb481;
+    --verde-nude:#b5c79d;
     --marrom-escuro:#7f361f;
     --bege-background:#ecdec3c7;
     --preto:#000000;
@@ -14,63 +18,8 @@
     --fonte-h1: font-family: 'Rubik', sans-serif;
 }
 
-.cabecalho_principal_logo {
-    display: inline-block;
-    vertical-align: middle;
-    position:relative;
-    width: 8rem;
-    justify-content: space-around;
-}
-
-.cabecalho_principal_nav {
-    display: inline-block;
-    vertical-align: middle;
-}
-
-.cabecalho_principal_nav_link {
-    text-decoration: none;
-    color: var(--verde-forte);
-    font-weight: bold;
-    font-size: 1.3rem;
-    padding: 1rem;
-}
-
-:hover.cabecalho_principal_nav_link {
-    color: var(--marrom-escuro);
-}
-
-.cabecalho_principal_acessar_conta_link {
-    background-color:var(--marrom-escuro);
-    color: var(--bege-background);
-    text-decoration: none;
-    border: none;
-    padding: 0.7rem;
-    border-radius: 8px;
-    margin: 1.5rem;
-}
-
-:hover.cabecalho_principal_acessar_conta_link {
-    background-color: var(--laranja-forte);
-}
-
-.cabecalho_principal_criar_conta_link {
-    font-weight: bold;
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: var(--marrom-escuro);
-}
-
-:hover.cabecalho_principal_criar_conta_link {
-    color: var(--preto);
-}
-
-.container_cabecalho {
-    background-color: var(--verde-nude);
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
-    border-bottom: solid;
-    border-color: var(--verde-forte);
+.strong_vegpremium {
+    color: var(--laranja-forte);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -81,10 +30,11 @@ body{
 }
 
 .entrada_principal {
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 5rem;
+    padding: 10em;
 }
 
 .foto_entregador {
@@ -122,109 +72,4 @@ p{
     font-weight: bold;
     font-size: 1.2rem;
     padding: .5rem;
-}
-
-.imagem_vegana1 {
-    color: var(--marrom-escuro);
-    padding: 1rem;
-    border: solid;
-    width: 100%;
-    height: 50%;
-    animation: move 1.5s linear forwards;
-    position:relative;
-}
-
-@keyframes move {
- 0%  {transform: translate(-100%, 0) }
-}
-
-.mapa {
-    width: 100%;
-}
-
-.buscar_localizacao_container {
-    display: flex;
-    justify-content: center;
-    padding: 2rem;
-}
-
-.buscar_localizacao_input {
-    
-    padding: 1.1rem;
-    font-size: 1rem;
-    font-weight: bold;
-    width: 40%;
-    margin: 2rem;
-    border-radius: 5px;
-    background-color: var(--verde-claro);
-}
-
-.botao {
-    color: var(--bege-background);
-    background-color: var(--marrom-escuro);
-    font-family: "Josefin Sans", 'sans-serif';
-    font-weight: bold;
-    font-size: 1.54rem;
-    margin: 1rem;
-    width: auto;
-    border: none;
-    border-radius: 5px;
-    padding: 1.3rem;
-}
-
-:hover.botao {
-    background-color: var(--laranja-forte);
-}
-
-.swiper-slide {
-    background-color: var(--marrom-escuro);
-    padding: 2em 0 1em 0;
-    border: solid;
-    border-radius: 10px;
-}
-
-.titulo_swiper {
-    padding: 3rem 3rem 3rem;
-    color: var(--preto);
-    font-size: 1.4rem;
-    font-weight: bold;
-    text-align:center;
-    font-family: 'Rubik', sans-serif;
-}
-
-
-.swiper-slide img {
-    margin: 1em 0 0 0;
-    width: 70%;
-    border: solid;
-    border-radius: 40px;
-
-}
-
-.swiper-button-prev, .swiper-button-next {
-    position: absolute;
-    color: var(--preto);
-}
-
-
-.beneficios {
-    font-size: large;
-    margin-top: 7em;
-}
-
-.footer {
-    display: flex;
-    font-size: 16px;
-    padding: 1rem;
-    background-color: var(--verde-medio);
-    justify-content:space-around;
-    justify-content: baseline;
-}
-
-.links_termos_footer {
-    display: flex;
-}
-
-.link_termos_footer {
-    margin: 1.3rem;
 }

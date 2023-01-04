@@ -1,0 +1,20 @@
+.comparacao_planos {
+    display: flex;
+    justify-content: space-around;
+}
+
+.plano_veg {
+    border: solid;
+    border-radius: 20px;
+    border-color: var(--marrom-escuro);
+    background-color: var(--verde-nude);
+    padding: 0 0 3em 0;
+} 
+
+.vantagens_vegpremium {
+    font-weight: bold;
+}
+
+.desvantagens_conta_comum {
+    font-weight: bold;
+}
