@@ -1,20 +1,47 @@
 .comparacao_planos {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
 
+
 .plano_veg {
+    text-align: left;
     border: solid;
     border-radius: 20px;
     border-color: var(--marrom-escuro);
     background-color: var(--verde-nude);
-    padding: 0 0 3em 0;
 } 
 
-.vantagens_vegpremium {
+.plano_veg_comum {
+    margin-right: 3em;
+}
+
+.comparacao_lista_item {
     font-weight: bold;
 }
 
-.desvantagens_conta_comum {
+
+li {
+    padding: 1em;
+}
+
+.planos_vegpremium {
+    display: flex;
+    justify-content: center;
+    margin: 1em;
+}
+
+.plano_vegpremium {
+    background-color:var(--borda-h2);
+    margin: 1em;
+    padding: 1em;
+    border: solid;
+    border-radius: 20px;
+    border-color: var(--marrom-escuro);
+}
+
+
+.preco_plano {
     font-weight: bold;
+    font-size: 1.3em;
 }

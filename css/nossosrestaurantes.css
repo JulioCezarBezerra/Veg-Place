@@ -19,7 +19,8 @@
 .buscar_localizacao_container {
     display: flex;
     justify-content: center;
-    padding: 2rem;
+    padding: 1em;
+    align-items: baseline;
 }
 
 .buscar_localizacao_input {
@@ -28,30 +29,14 @@
     font-size: 1rem;
     font-weight: bold;
     width: 40%;
-    margin: 2rem;
+    margin: 2rem 1rem 2rem 2rem;
     border-radius: 5px;
     background-color: var(--verde-claro);
 }
 
-.botao {
-    color: var(--bege-background);
-    background-color: var(--marrom-escuro);
-    font-family: "Josefin Sans", 'sans-serif';
-    font-weight: bold;
-    font-size: 1.54rem;
-    margin: 1rem;
-    width: auto;
-    border: none;
-    border-radius: 5px;
-    padding: 1.3rem;
-}
-
-:hover.botao {
-    background-color: var(--laranja-forte);
-}
-
 .swiper {
     margin: 0 0 3em 0;
+    z-index: 1;
 }
 
 .swiper-slide {

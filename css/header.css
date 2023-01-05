@@ -1,13 +1,14 @@
 .cabecalho_principal {
     width: 100%;
     position: fixed;
+    z-index: 2;
 }
 
 .cabecalho_principal_logo {
     display: inline-block;
     vertical-align: middle;
     position:relative;
-    width: 8rem;
+    width: 6rem;
     justify-content: space-around;
 }
 
@@ -20,7 +21,7 @@
     text-decoration: none;
     color: var(--verde-forte);
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
     padding: 1rem;
 }
 

@@ -3,6 +3,8 @@
 @import url(header.css);
 @import url(nossosrestaurantes.css);
 @import url(vegpremium.css);
+@import url(app.css);
+@import url(contato.css);
 @import url(footer.css);
 :root {
     --verde-forte:#58692e;
@@ -13,6 +15,7 @@
     --verde-nude:#b5c79d;
     --marrom-escuro:#7f361f;
     --bege-background:#ecdec3c7;
+    --borda-h2: #e6c88cc7;
     --preto:#000000;
     --fonte-principal: $main-font: 'Josefin Sans';
     --fonte-h1: font-family: 'Rubik', sans-serif;
@@ -24,17 +27,39 @@
 }
 
 body{
-    background-color: var(--bege-background);
+    background-image: url("/img/background_image.jpg");
     text-align: center;
     font-family: "Josefin Sans", 'sans-serif';
 }
+
+.botao {
+    color: var(--bege-background);
+    background-color: var(--marrom-escuro);
+    font-family: "Josefin Sans", 'sans-serif';
+    font-weight: bold;
+    padding: 1.1em;
+    font-size: 1.2rem;
+    margin: 1em 1rem 0 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.botao_assinar{ 
+    margin-top: 0em;
+}
+
+:hover.botao {
+    background-color: var(--laranja-forte);
+    cursor: pointer;
+}
+
 
 .entrada_principal {
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10em;
+    padding: 10em 0 5em 0;
 }
 
 .foto_entregador {
@@ -44,32 +69,51 @@ body{
 .titulo_entrada {
     margin-bottom: 2rem;
     color: var(--preto);
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: bold;
     text-align:center;
     font-family: 'Rubik', sans-serif;
 }
 
 h2 {
-    padding: 3rem;
+    padding: 2em;
     color: var(--preto);
-    font-size: 2.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     text-align:center;
     font-family: 'Rubik', sans-serif;
 }
 
+.h2_sem_padding {
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    padding: 1.5rem;
+    color: var(--preto);
+    font-size: 1.3em;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.borda_titulo_h2 {
+    margin-top: 1rem;
+    border-top: solid;
+    border-color: var(--marrom-escuro);
+}
+
 .descricao1 {
     color:var(--marrom-escuro);
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: 1rem;
     padding: 1rem;
     margin-bottom: 1rem;
 }
 
 p{
-    color:var(--marrom-escuro);
+    color:var(--preto);
     font-weight: bold;
-    font-size: 1.2rem;
-    padding: .5rem;
+    font-size: 1rem;
+    padding: 1em;
 }
