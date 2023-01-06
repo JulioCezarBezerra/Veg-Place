@@ -6,6 +6,8 @@
 @import url(app.css);
 @import url(trabalhe-conosco.css);
 @import url(footer.css);
+@import url(cadastro.css);
+@import url(loguin.css);
 :root {
     --verde-forte:#58692e;
     --laranja-forte:#D56B1D;

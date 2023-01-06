@@ -14,6 +14,7 @@
     background-color: var(--borda-h2);
     display: block;
     border-radius: 20px;
+    border-color: var(--marrom-escuro);
 }
 
 .foto_entregador {
@@ -29,6 +30,7 @@
     background-color: var(--borda-h2);
     display: block;
     border-radius: 20px;
+    border-color: var(--marrom-escuro);
 }
 
 .foto_cozinheiro {
