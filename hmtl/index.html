@@ -26,8 +26,8 @@
             <nav class="cabecalho_principal_nav">
                 <a class="cabecalho_principal_nav_link" href="#nossos_restaurantes">Nossos Restaurantes</a>
                 <a class="cabecalho_principal_nav_link" href="#VegPremium">Seja VegPremium</a>
-                <a class="cabecalho_principal_nav_link" href="#">Nosso App</a>
-                <a class="cabecalho_principal_nav_link" href="#">Trabalhe conosco</a>
+                <a class="cabecalho_principal_nav_link" href="#nosso_app">Nosso App</a>
+                <a class="cabecalho_principal_nav_link" href="#trabalhe_conosco">Trabalhe conosco</a>
             </nav>
             <nav>
                 <a class="cabecalho_principal_criar_conta_link" href="#">Criar Conta</a>
@@ -140,40 +140,56 @@
                 </div>
             </div>
         </section> 
-        <section class="trabalhe_conosco">
-            <h2>Trabalhe Conosco</h2>
-            <div></div>
-        </section>
-        <div class="APP">
+        <div class="APP" id="nosso_app">
             <h2 class="borda_titulo_h2">Baixe nosso App</h2>
-            <img src="/img/playstore.png" alt="simbolo da playstore loja de apps do android" class="playstore_img">
-            <img src="/img/appstore.png" alt="simbolo da appstore loja de apps da apple" class="appstore_img">
+            <img src="/img/logo-vegplace.png" alt="Vegan Place" >
+            <div class="container_app">
+                <img src="/img/playstore.png" alt="simbolo da playstore loja de apps do android" class="playstore_img">
+                <img src="/img/appstore.png" alt="simbolo da appstore loja de apps da apple" class="appstore_img">
+            </div>
         </div>
+        <section class="trabalhe_conosco" id="trabalhe_conosco">
+            <h2 class="borda_titulo_h2">Trabalhe Conosco</h2>
+                <div class="trabalhe_conosco_container">
+                    <div class="registre_restaurante">
+                        <h3>Registre seu restaurante</h3>
+                        <img src="/img/foto_cozinheiro.png" alt="cozinheiro finalizando um prato" class="foto_cozinheiro">
+                        <p>Tenha acesso a milhares de usuários do <strong class="strong_vegplace">Vegplace</strong> sem precisar sair de sua loja.</p>
+                        <a href=""><button class="botao_trabalhe_conosco">Saiba mais</button></a>
+                    </div>
+                    <div class="seja_entregador">
+                        <h3>Seja nosso entregador</h3>
+                        <img src="/img/foto_entregador.webp" alt="Entregador de comida de capacete" class="foto_entregador">
+                        <p>Ganhe dinheiro extra fazendo entregas e receba 100% de suas gorjetas</p>
+                        <a href=""><button class="botao_trabalhe_conosco">Cadastre-se agora</button></a>
+                    </div>
+                </div>
+        </section>
         <footer class="footer">
+            <div class="footer_container">
+                <div class="descricao_footer">
+                    © Copyright 2023 - Veg Place - Todos os direitos reservados. Veg Place Plataforma Vegana LTDA.
+                    <br>
+                    CNPJ 18.550.200/0441-21 / a Rua Evaristo da Veiga, 55 -
+                    Centro, Rio de Janeiro - RJ
+                </div>
+                <div class="lista_termos_footer">
+                    <ul class="links_termos_footer">
+                        <li class="link_termos_footer"><a href="#">Termos e condições de uso</a></li>
+                        <li class="link_termos_footer"><a href="#">Código de conduta</a></li>
+                        <li class="link_termos_footer"><a href="#">Privacidade</a></li>
+                        <li class="link_termos_footer"><a href="#">Dicas de Segurança</a></li>
+                    </ul>
+                </div>
+            </div>
             <div class="contato">
+                <p>Entre em contato conosco:</p>
                 <img src="/img/instagramlogo.png" alt="instagram" class="logo_instagram">
                 <img src="/img/facebooklogo.png" alt="facebook" class="logo_facebook">
                 <img src="/img/twitterlogo.png" alt="twitter" class="logo_twitter">
             </div>
-        <div class="footer_container">
-            <div class="descricao_footer">
-                © Copyright 2023 - Veg Place - Todos os direitos reservados. Veg Place Plataforma Vegana LTDA.
-                <br>
-                CNPJ 18.550.200/0441-21 / a Rua Evaristo da Veiga, 55 -
-                Centro, Rio de Janeiro - RJ
-            </div>
-            
-            <div class="lista_termos_footer">
-                <ul class="links_termos_footer">
-                    <li class="link_termos_footer">Termos e condições de uso</li>
-                    <li class="link_termos_footer">Código de conduta</li>
-                    <li class="link_termos_footer">Privacidade</li>
-                    <li class="link_termos_footer">Dicas de Segurança</li>
-                </ul>
-            </div>
-        </div>
         </footer>
+</body>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="/js/main.js"></script>
-</body>
 </html>

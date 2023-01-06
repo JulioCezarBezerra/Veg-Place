@@ -4,7 +4,7 @@
 @import url(nossosrestaurantes.css);
 @import url(vegpremium.css);
 @import url(app.css);
-@import url(contato.css);
+@import url(trabalhe-conosco.css);
 @import url(footer.css);
 :root {
     --verde-forte:#58692e;
@@ -19,6 +19,18 @@
     --preto:#000000;
     --fonte-principal: $main-font: 'Josefin Sans';
     --fonte-h1: font-family: 'Rubik', sans-serif;
+}
+
+
+.strong_vegplace {
+    font-size: larger;
+    color: var(--laranja-forte);
+    font-weight: bolder;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
 }
 
 .strong_vegpremium {
@@ -79,7 +91,6 @@ h2 {
     padding: 2em;
     color: var(--preto);
     font-size: 1.3rem;
-    font-weight: bold;
     text-align:center;
     font-family: 'Rubik', sans-serif;
 }

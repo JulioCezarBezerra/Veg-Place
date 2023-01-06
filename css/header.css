@@ -5,6 +5,7 @@
 }
 
 .cabecalho_principal_logo {
+    margin-left: 2rem;
     display: inline-block;
     vertical-align: middle;
     position:relative;

@@ -1,0 +1,54 @@
+.trabalhe_conosco {
+    margin-bottom: 3em;
+}
+
+.trabalhe_conosco_container {
+    display: flex;
+    justify-content: center;
+}
+
+.seja_entregador {
+    border: solid;
+    margin-left: 4em;
+    width: 20%;
+    background-color: var(--borda-h2);
+    display: block;
+    border-radius: 20px;
+}
+
+.foto_entregador {
+    border: solid;
+    min-width: 60%;
+    border-radius: 40px;
+}
+
+
+.registre_restaurante {
+    border: solid;
+    width: 20%;
+    background-color: var(--borda-h2);
+    display: block;
+    border-radius: 20px;
+}
+
+.foto_cozinheiro {
+    border: solid;
+    max-width: 60%;
+    border-radius: 40px;
+}
+
+.botao_trabalhe_conosco {
+    color: var(--preto);
+    background-color: var(--marrom-escuro);
+    font-family: "Josefin Sans", 'sans-serif';
+    font-weight: bold;
+    padding: 1.1em;
+    font-size: 1.2rem;
+    margin: 1em 1rem 1rem 1rem;
+    border: none;
+    border-radius: 5px;
+}
+:hover.botao_trabalhe_conosco {
+    background-color: var(--laranja-forte);
+    cursor: pointer;
+}
