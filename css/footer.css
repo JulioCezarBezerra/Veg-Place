@@ -1,7 +1,9 @@
 .footer {
+    position: relative;
+    bottom: 0px;
     margin: 0 0 0 0;
     font-size: 16px;
-    padding-top: .5em 0 0 0;
+    padding-top:1em;
     background-color: var(--verde-medio);
     border-top: solid;
     border-color: var(--verde-forte);
@@ -14,6 +16,7 @@
 }
 
 .links_termos_footer {
+
     display: flex;
     align-items: flex-start;
 }
