@@ -7,7 +7,7 @@
 .plano_veg {
     text-align: left;
     border: solid;
-    border-radius: 20px;
+    border-radius: 5px;
     border-color: var(--marrom-escuro);
     background-color: var(--verde-nude);
 } 
@@ -32,11 +32,11 @@ li {
 }
 
 .plano_vegpremium {
-    background-color:var(--borda-h2);
+    background-color:var(--verde-nude);
     margin: 1em;
     padding: 1em;
     border: solid;
-    border-radius: 20px;
+    border-radius: 5px;
     border-color: var(--marrom-escuro);
 }
 

@@ -3,38 +3,40 @@
 }
 
 .trabalhe_conosco_container {
+    background-color: var(--verde-nude);
     display: flex;
     justify-content: center;
+    animation: move 1.5s linear forwards;
+    position:relative;
 }
 
+@keyframes move {
+ 0%  {transform: translate(-100%, 0) }
+}
+
+
 .seja_entregador {
-    border: solid;
     margin-left: 4em;
     width: 20%;
-    background-color: var(--borda-h2);
     display: block;
     border-radius: 20px;
     border-color: var(--marrom-escuro);
 }
 
 .foto_entregador {
-    border: solid;
     min-width: 60%;
     border-radius: 40px;
 }
 
 
 .registre_restaurante {
-    border: solid;
     width: 20%;
-    background-color: var(--borda-h2);
     display: block;
     border-radius: 20px;
     border-color: var(--marrom-escuro);
 }
 
 .foto_cozinheiro {
-    border: solid;
     max-width: 60%;
     border-radius: 40px;
 }

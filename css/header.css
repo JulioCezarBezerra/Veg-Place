@@ -24,6 +24,7 @@
     font-weight: bold;
     font-size: 1rem;
     padding: 1rem;
+    border-right: solid 1px var(--verde-forte);
 }
 
 :hover.cabecalho_principal_nav_link {
@@ -56,11 +57,9 @@
 }
 
 .container_cabecalho {
-    background-color: var(--verde-nude);
+    background-color: var(--bege-background);
     display: flex;
     align-items: center;
-    justify-content:space-between;
-    border-bottom: solid;
-    border-color: var(--verde-forte);
+    justify-content:space-around;
     font-family: 'Rubik', sans-serif;
 }
