@@ -1,13 +1,33 @@
 
 .mapa {
-    width: 100%;
+    padding: 4em 0 2em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.descricao_mapa {
+    max-width: 40%;
+    margin-right: 20em;
+}
+
+.titulo_mapa {
+    font-size: 3em;
+    line-height: 1.3em;
+}
+
+.h2_mapa {
+    font-size: 1.5em;
+}
+
 
 .buscar_localizacao_container {
     display: flex;
     justify-content: center;
     padding: 1em;
     align-items: baseline;
+    margin-bottom: 3em;
+    padding-bottom: 0;
 }
 
 .buscar_localizacao_input {
@@ -18,16 +38,35 @@
     width: 40%;
     margin: 2rem 1rem 2rem 2rem;
     border-radius: 5px;
-    background-color: var(--verde-claro);
+    background-color: var(--laranja-medio);
+}
+
+.botao_buscar {
+    color: var(--bege-background);
+    background-color: var(--verde-escuro);
+    font-family: "Josefin Sans", 'sans-serif';
+    font-weight: bold;
+    padding: 1.3em 2em 1.3em 2em;
+    font-size: 1.2rem;
+    margin: 1em 1rem 0 1rem;
+    border: solid 0px var(--preto);
+    border-radius: 10px;
+    transition: background 1s;
+}
+
+.carrossel_titulo {
+    border-top: solid 2px;
+    text-align: left;
 }
 
 .swiper {
     margin: 0 0 3em 0;
     z-index: 1;
-    border:solid;
     border-right: none;
     border-color: var(--marrom-escuro);
 }
+
+
 
 .swiper-slide {
     padding: 2em 0 1em 0;
@@ -44,12 +83,12 @@
 
 .swiper-slide img {
     margin: 1em 0 0 0;
-    width: 70%;
-    border-radius: 40px;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 10px;
 
 }
 
 .swiper-button-prev, .swiper-button-next {
-    position: absolute;
-    color: var(--preto);
+    display: none;
 }

@@ -8,9 +8,9 @@
     padding: 1.5em;
     text-align: left;
     border: solid;
-    border-radius: 100px;
+    border-radius: 15px;
     border-color: var(--preto);
-    background-color: var(--laranja-medio);
+    background-color: var(--verde-claro);
 } 
 
 .plano_veg_comum {
@@ -31,6 +31,7 @@
 
 li {
     padding: 1em;
+    text-decoration: underline;
 }
 
 .planos_vegpremium {
@@ -40,7 +41,7 @@ li {
 }
 
 .plano_vegpremium {
-    background-color:var(--bege-background);
+    background-color:var(--laranja-medio);
     margin: 1em;
     padding: 1em;
     border: solid 2px;
@@ -48,6 +49,9 @@ li {
     border-color: var(--preto);
 }
 
+.assine_agora {
+    margin-top: 2em;
+}
 
 .preco_plano {
     font-weight: bold;

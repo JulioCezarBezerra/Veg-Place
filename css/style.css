@@ -8,12 +8,13 @@
 @import url(footer.css);
 @import url(cadastro.css);
 @import url(loguin.css);
-:root {
+:root { 
+    --verde-escuro: #185007;
     --verde-forte:#2e8818;
     --laranja-forte:#D56B1D;
     --laranja-medio:#fcad75ef;
     --verde-medio:#47c200;
-    --verde-claro:#BFBF5E;
+    --verde-claro:#bfbf5e;
     --verde-nude:#b5c79d;
     --marrom-escuro:#aa5338;
     --marrom-mais-escuro:#663628;
@@ -27,7 +28,7 @@
 
 .strong_vegplace {
     font-size: larger;
-    color: var(--laranja-forte);
+    color: var(--verde-forte);
     font-weight: bolder;
 }
 
@@ -37,7 +38,7 @@ a {
 }
 
 .strong_vegpremium {
-    color: var(--laranja-forte);
+    color: var(--verde-escuro);
     font-family: 'Rubik', sans-serif;
 }
 
@@ -48,14 +49,14 @@ body{
 }
 
 .botao {
-    color: var(--preto);
-    background-color: var(--verde-forte);
+    color: var(--bege-background);
+    background-color: var(--verde-escuro);
     font-family: "Josefin Sans", 'sans-serif';
     font-weight: bold;
     padding: 1.1em;
     font-size: 1.2rem;
     margin: 1em 1rem 0 1rem;
-    border: solid 2px var(--preto);
+    border: solid 0px var(--preto);
     border-radius: 10px;
     transition: background 1s;
     
@@ -66,9 +67,9 @@ body{
     transition: background 1s;
 }
 
-:hover.botao, :focus.botao, :hover.botao_assinar {
+:hover.botao, :focus.botao, :hover.botao_assinar, :hover.botao_buscar {
 
-    background-color: var(--verde-medio);
+    background-color: var(--verde-forte);
     cursor: pointer;
 }
 

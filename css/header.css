@@ -20,11 +20,11 @@
 
 .cabecalho_principal_nav_link {
     text-decoration: none;
-    color: var(--verde-forte);
+    color: var(--verde-escuro);
     font-weight: bold;
     font-size: 1rem;
     padding: 1rem;
-    border-right: solid 1px var(--verde-forte);
+    border-right: solid 1px var(--verde-escuro);
 }
 
 :hover.cabecalho_principal_nav_link {
@@ -49,15 +49,15 @@
     font-weight: bold;
     font-size: 1.1rem;
     text-decoration: none;
-    color: var(--marrom-escuro);
+    color: var(--verde-escuro);
 }
 
 :hover.cabecalho_principal_criar_conta_link {
-    color: var(--preto);
+    color: var(--laranja-forte);
 }
 
 .container_cabecalho {
-    background-color: var(--bege-background);
+    background-color: var(--verde-claro);
     border-bottom: solid 1px;
     display: flex;
     align-items: center;
