@@ -1,0 +1,97 @@
+
+
+.banner_inicial {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin: 5em 0 0 0;
+ }
+
+.banner_celular {
+    max-width: 25%;
+    padding-left: 11em;
+    box-sizing: border-box;
+}
+
+.slogan_principal {
+    padding-left: 1.7em;
+    font-size: 5em;
+    line-height: 1.3em;
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    color: var(--preto);
+}
+
+.entrada_principal {
+    background: var(--laranja-medio);
+    border-bottom-right-radius: 300px;
+    border-bottom :solid 3px var(--marrom-escuro);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3em 0 5em 0;
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-right: 100%;
+        width: 120%
+      }
+    
+      to {
+        margin-right: 0%;
+        width: 100%;
+      }
+}
+
+.container_descricao_entrada {
+    padding: 0;
+    margin: 0;
+}
+
+.titulo_entrada {
+    color: var(--preto);
+    font-size: 2rem;
+    font-weight: bold;
+    text-align:center;
+    font-family: 'Rubik', sans-serif;
+}
+
+.APP {
+    margin-bottom: 5em;
+}
+
+.container_app {
+     align-items: baseline;
+}
+
+.appstore_img{
+    background-color: var(--verde-forte);
+    max-width: 15%;
+    border: solid;
+    border-radius: 10px;
+    padding: 0.2em;
+    margin-left: 3em;
+    transition: background 1s;
+}
+
+.playstore_img {
+    border-radius: 10px;
+    max-width: 15%;
+    background-color: var(--verde-forte);
+    transition: background 1s;
+}
+
+:hover.appstore_img, :focus.appstore_img, :hover.playstore_img, :focus.playstore_img {
+    background-color: var(--verde-medio);
+}
+
+.descricao1 {
+    color: var(--preto);
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}

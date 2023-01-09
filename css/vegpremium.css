@@ -5,11 +5,12 @@
 
 
 .plano_veg {
+    padding: 1.5em;
     text-align: left;
     border: solid;
-    border-radius: 5px;
-    border-color: var(--marrom-escuro);
-    background-color: var(--verde-nude);
+    border-radius: 100px;
+    border-color: var(--preto);
+    background-color: var(--laranja-medio);
 } 
 
 .plano_veg_comum {
@@ -20,6 +21,13 @@
     font-weight: bold;
 }
 
+.contaX{
+    padding: 1em;
+    font-size: 2em;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
 
 li {
     padding: 1em;
@@ -32,12 +40,12 @@ li {
 }
 
 .plano_vegpremium {
-    background-color:var(--verde-nude);
+    background-color:var(--bege-background);
     margin: 1em;
     padding: 1em;
-    border: solid;
-    border-radius: 5px;
-    border-color: var(--marrom-escuro);
+    border: solid 2px;
+    border-radius: 20px;
+    border-color: var(--preto);
 }
 
 

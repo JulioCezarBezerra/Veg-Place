@@ -24,6 +24,9 @@
 .swiper {
     margin: 0 0 3em 0;
     z-index: 1;
+    border:solid;
+    border-right: none;
+    border-color: var(--marrom-escuro);
 }
 
 .swiper-slide {

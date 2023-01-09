@@ -2,9 +2,8 @@
     bottom: 0px;
     font-size: 16px;
     padding-top:1em;
-    background-color: var(--verde-medio);
-    border-top: solid;
-    border-color: var(--verde-forte);
+    background-color: var(--bege-background);
+    border-top: solid 1px;
 }
 
 .footer_container {
