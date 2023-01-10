@@ -68,25 +68,13 @@
 }
 
 .appstore_img{
-    background-color: var(--verde-forte);
-    max-width: 15%;
-    border: solid;
-    border-radius: 10px;
-    padding: 0.2em;
-    margin-left: 3em;
-    transition: background 1s;
+    max-width: 30%;
 }
 
 .playstore_img {
-    border-radius: 10px;
-    max-width: 15%;
-    background-color: var(--verde-forte);
-    transition: background 1s;
+    max-width: 30%;
 }
 
-:hover.appstore_img, :focus.appstore_img, :hover.playstore_img, :focus.playstore_img {
-    background-color: var(--verde-medio);
-}
 
 .descricao1 {
     color: var(--preto);

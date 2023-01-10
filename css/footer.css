@@ -1,9 +1,8 @@
 .footer {
-    bottom: 0px;
-    font-size: 16px;
-    padding-top:1em;
-    background-color: var(--verde-claro);
     border-top: solid 2px;
+    padding-top: 2em;
+    background: -webkit-linear-gradient(to bottom,var(--verde-claro),var(--verde-claro) 3px,transparent);
+    background: linear-gradient(to bottom,var(--verde-claro),var(--verde-claro) 3px,transparent);
 }
 
 .footer_container {
