@@ -1,86 +1,49 @@
-
-
-.banner_inicial {
-    display: flex;
-    align-items:center;
-    justify-content: center;
-    margin: 5em 0 0 0;
- }
-
-.banner_celular {
-    max-width: 25%;
-    padding-left: 11em;
-    box-sizing: border-box;
+.entrada_principal{
+    border-bottom: solid var(--verdeescuro);
+    background-color: var(--bege);
+    border-end-end-radius: 300px;
 }
 
-.slogan_principal {
-    padding-left: 1.7em;
-    font-size: 5em;
-    line-height: 1.3em;
-    font-family: 'Rubik', sans-serif;
-    font-weight: lighter;
-    color: var(--verde-escuro);
+.banner_inicial{
+    padding-top: 8em;
+    background-image: url(/img/frutas.png);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
-.entrada_principal {
-    background-image: linear-gradient(to bottom, var(--laranja-medio), var(--verde-claro));
-    background-image: linear-gradient(var(--laranja-medio), var(--verde-claro));
-    border-bottom-right-radius: 300px;
-    border-bottom :solid 3px var(--marrom-escuro);
+.container_entrada{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 3em 0 5em 0;
-    animation-duration: 2.5s;
-    animation-name: slidein;
-}
-
-@keyframes slidein {
-    from {
-        margin-right: 100%;
-        width: 120%
-      }
-    
-      to {
-        margin-right: 0%;
-        width: 100%;
-      }
 }
 
 .container_descricao_entrada {
-    padding: 0;
-    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .titulo_entrada {
-    color: var(--preto);
-    font-size: 2rem;
-    font-weight: bold;
-    text-align:center;
-    font-family: 'Rubik', sans-serif;
+    color: var(--quasepreto);
+    font-size: 3em;
+    padding-bottom: .5em;
 }
 
-.APP {
-    margin-bottom: 5em;
+.descricao_entrada{
+    color: var(--quasepreto);
+    padding-bottom: 3em;
 }
 
-.container_app {
-     align-items: baseline;
+.img_celular{
+    display: inline;
+    max-width: 30%;
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }
 
 .appstore_img{
-    max-width: 30%;
+    max-width: 15%;
 }
 
 .playstore_img {
-    max-width: 30%;
-}
-
-
-.descricao1 {
-    color: var(--preto);
-    font-weight: bold;
-    font-size: 1rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
+    max-width: 15%;
 }

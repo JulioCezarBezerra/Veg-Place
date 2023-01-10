@@ -1,58 +1,44 @@
 
 .mapa {
-    padding: 4em 0 2em 0;
+    padding: 4em 0 2em;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(/img/frutas2.png);
+    background-repeat: no-repeat;
+    background-position-y: top;
 }
 
 .descricao_mapa {
-    max-width: 40%;
-    margin-right: 20em;
+    padding: 2em;
+    border-radius: 5px;  
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.849);
+    max-width: 60%;
+    margin-right: 3em;
+    box-shadow: 0 0 20px 3px rgb(0 0 0 / 10%);
+    animation: go-back 1s infinite alternate;
 }
+
+@keyframes go-back {
+    from {
+      transform: translatey(10px);
+    }
+    to {
+      transform: translatey(0);
+    }
+  }
 
 .titulo_mapa {
     font-size: 3em;
-    line-height: 1.3em;
+    line-height: 1.4em;
 }
-
-.h2_mapa {
-    font-size: 1.5em;
-}
-
-
-.buscar_localizacao_container {
-    display: flex;
-    justify-content: center;
-    padding: 1em;
-    align-items: baseline;
-    margin-bottom: 3em;
-    padding-bottom: 0;
-}
-
-.buscar_localizacao_input {
-    
-    padding: 1.1rem;
-    font-size: 1rem;
+.descricao_mapa_p {
+    padding: 1em 0 0 0;
+    color: var(--quasepreto);
+    font-size: 1em;
+    text-align:center;
     font-weight: bold;
-    width: 40%;
-    margin: 2rem 1rem 2rem 2rem;
-    border-radius: 5px;
-    background-image: linear-gradient(to bottom, var(--laranja-medio), var(--verde-claro));
-    background-image: linear-gradient(var(--laranja-medio), var(--verde-claro));
-}
-
-.botao_buscar {
-    color: var(--branco);
-    background-color: var(--verde-escuro);
-    font-family: "Josefin Sans", 'sans-serif';
-    font-weight: bold;
-    padding: 1.3em 2em 1.3em 2em;
-    font-size: 1.2rem;
-    margin: 1em 1rem 0 1rem;
-    border: solid 0px var(--preto);
-    border-radius: 10px;
-    transition: background 1s;
 }
 
 .carrossel_titulo {

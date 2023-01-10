@@ -9,21 +9,14 @@
 @import url(cadastro.css);
 @import url(loguin.css);
 :root { 
-    --verde-escuro: #185007;
-    --verde-forte:#2e8818;
-    --laranja-forte:#D56B1D;
-    --laranja-medio:#f07833a2;
-    --verde-medio:#47c200;
-    --verde-claro:#bfbf5e;
-    --verde-nude:#b5c79d;
-    --marrom-escuro:#aa5338;
-    --marrom-mais-escuro:#663628;
-    --bege-background:#ecdec3e0;
-    --borda-h2: #e6c88cc7;
+    --quasepreto: #212626;
+    --cinza: #485953;
+    --cinzaclaro:#bcc7c3;
+    --verdeescuro:#618c37;
+    --verdeclaro:#8abf3b;
+    --bege:#cfbcb0;
     --preto:#000000;
     --branco:#ffffff;
-    --fonte-principal: $main-font: 'Josefin Sans';
-    --fonte-h1: font-family: 'Rubik', sans-serif;
 }
 
 
@@ -39,26 +32,25 @@ a {
 }
 
 .strong_vegpremium {
-    color: var(--verde-escuro);
-    font-family: 'Rubik', sans-serif;
+    color: var(--cinza);
 }
 
 body{
-    background-image: url("/img/background_image.jpg");
+    background-color: var(--branco);
     text-align: center;
     font-family: "Josefin Sans", 'sans-serif';
 }
 
 .botao {
     color: var(--branco);
-    background-color: var(--verde-escuro);
+    background-color: var(--cinza);
     font-family: "Josefin Sans", 'sans-serif';
     font-weight: bold;
     padding: 1.1em;
     font-size: 1.2rem;
     margin: 1em 1rem 0 1rem;
     border: solid 0px var(--preto);
-    border-radius: 10px;
+    border-radius: 40px;
     transition: background 1s;
     
 }
@@ -70,43 +62,15 @@ body{
 
 :hover.botao, :focus.botao, :hover.botao_assinar, :hover.botao_buscar {
 
-    background-color: var(--verde-forte);
+    background-color: var(--verdeescuro);
     cursor: pointer;
 }
 
 
-
-h2 {
+.titulo_pequeno {
     padding: 2em;
-    color: var(--preto);
-    font-size: 1.3rem;
+    color: var(--quasepreto);
+    font-size: 1em;
     text-align:center;
-    font-family: 'Rubik', sans-serif;
-}
-
-.h2_sem_padding {
-    padding-bottom: 0.5em;
-}
-
-h3 {
-    padding: 1.5rem;
-    color: var(--preto);
-    font-size: 1.3em;
     font-weight: bold;
-    text-align:center;
-    font-family: 'Rubik', sans-serif;
-}
-
-.borda_titulo_h2 {
-    margin-top: 1rem;
-    border-top: solid;
-    border-color: var(--marrom-escuro);
-}
-
-
-p{
-    color:var(--preto);
-    font-weight: bold;
-    font-size: 1rem;
-    padding: 0.5em 1em 1em 1em;
 }

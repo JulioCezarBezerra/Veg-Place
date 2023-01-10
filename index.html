@@ -4,12 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -30,43 +24,43 @@
                 <a class="cabecalho_principal_nav_link" href="#trabalhe_conosco">Trabalhe conosco</a>
             </nav>
             <nav>
-                <a class="cabecalho_principal_criar_conta_link" href="/cadastro/cadastro.html">Criar Conta</a>
-                <a class="cabecalho_principal_acessar_conta_link" href="/cadastro/cadastro.html">Entrar</a>
+                <a class="cabecalho_principal_criar_conta_link" href="cadastro.html">Criar Conta</a>
+                <a class="cabecalho_principal_acessar_conta_link" href="cadastro.html">Entrar</a>
             </nav>
         </div>
 
     </header>
     <section class="entrada_principal">
             <div class="banner_inicial">
-                <aside class="lado_esquerdo_banner">
-                    <h1 class="slogan_principal">Comida Vegana em um Click!</h1>
-                </aside>
-                    <img src="/img/banner_celular.png" alt="Celular com o app VegPlace aberto" class="banner_celular">
-                <aside class="lado_direito_banner">
+                <div class="container_entrada">
                     <div class="container_descricao_entrada">
                         <h1 class="titulo_entrada">Plano <strong>VegPremium</strong> Grátis no primeiro mês!</h1>
-                        <p class="descricao1">Com o plano VegPremium, tenha diversos benefícios, além de 15% de desconto em pedidos</p>
+                        <p class="descricao_entrada">Assine agora e tenha descontos de até 15% em todas as lojas parceiras.</p>
                         <a href="#VegPremium"><button class="botao botao_assinar">Seja VegPremium</button></a>
-                        <h2>Baixe o App e aproveite!!</h2>
-                        <a href="#"><img src="/img/playstore.svg" alt="simbolo da playstore loja de apps do android" class="playstore_img"></a>
-                        <a href="#"><img src="/img/appstore.svg" alt="simbolo da appstore loja de apps da apple" class="appstore_img"></a>
+                        <h3 class="titulo_pequeno">Baixe o App e aproveite!!</h3>
+                        <div class="app_buttons">
+                            <a href="#"><img src="/img/playstore.svg" alt="simbolo da playstore loja de apps do android" class="playstore_img"></a>
+                            <a href="#"><img src="/img/appstore.svg" alt="simbolo da appstore loja de apps da apple" class="appstore_img"></a>
+                        </div>
                     </div>
-                </aside>
+                    <img class="img_celular" src="/img/banner_celular.png" alt="mulher segurando o celular com o aplicativo Veg Place">
+                </div>
             </div>
     </section>
     <section>
         <div class="mapa">
             <div class="descricao_mapa">
-                <h2 class="titulo_mapa" id="nossos_restaurantes">Aproveite os benefícios de ser <strong class="strong_vegpremium">VegPremium</strong> em todo lugar!</h2>
-                <p class="h2_mapa">Os melhores restaurantes com os benefícios <strong class="strong_vegpremium">VegPremium</strong>, Seja Delivery, take away ou no estabelecimento.</p>
+                <h2 class="titulo_mapa" id="nossos_restaurantes"><strong class="strong_vegpremium">Aproveite os benefícios de ser VegPremium em todo lugar!</strong></h2>
+                <h3 class="descricao_mapa_p">Os melhores restaurantes com os benefícios <strong class="strong_vegpremium">VegPremium</strong>, Seja Delivery, take away ou no estabelecimento.</p>
             </div>
             <div class="mapa_caixa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117575.9081496654!2d-43.25778191873188!3d-22.941124048938118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante%20vegano!5e0!3m2!1spt-BR!2sbr!4v1672438706343!5m2!1spt-BR!2sbr" width="500" height="450" style="border:solid 4px; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117575.9081496654!2d-43.25778191873188!3d-22.941124048938118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante%20vegano!5e0!3m2!1spt-BR!2sbr!4v1672438706343!5m2!1spt-BR!2sbr" width="900" height="450" style="padding: 0; margin: 0 0 2em 0; box-shadow: 0 0 20px 3px rgb(0 0 0 / 30%);"; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
-        <div class="buscar_localizacao_container">
-            <input class="buscar_localizacao_input" value placeholder="Endereço de entrega e número">
-            <a href="#"><button class="botao_buscar">Buscar</button></a>
+        <div class="single_box">
+            <i>
+
+            </i>
         </div>
     </section>
     <section class="carrossel">
@@ -79,7 +73,7 @@
                 </div>
                 <div class="swiper-wrapper">
                     
-                    <div class="swiper-slide" data-swiper-autoplay="2000">
+                    <div class="swiper-slide" data-swiper-autoplay="2500">
                         <img src="/img/img1.png" alt="Vegetariano Social Clube"></div>
 
                     <div class="swiper-slide"><img src="/img/img2.png" alt="Restaurante Teva"></div>
@@ -106,7 +100,7 @@
         <section class="VegPremium" id="VegPremium">
             <h2 >SEJA <strong class="strong_vegpremium">VEG PREMIUM</strong> E APROVEITE OS BENEFICIOS AGORA MESMO</h2>
             <div class="comparacao_planos">
-                <ul class="plano_veg plano_veg_comum" >
+                <ul class="plano_veg_comum">
                     <h4 class="contaX">CONTA COMUM</h4> 
                     <li class="comparacao_lista_item">❌ Desconto de 15% em todo o site</li>
                     <li class="comparacao_lista_item">❌ Acesso sem publicidade</li>
