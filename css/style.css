@@ -21,6 +21,7 @@
     --bege-background:#ecdec3e0;
     --borda-h2: #e6c88cc7;
     --preto:#000000;
+    --branco:#ffffff;
     --fonte-principal: $main-font: 'Josefin Sans';
     --fonte-h1: font-family: 'Rubik', sans-serif;
 }
@@ -49,7 +50,7 @@ body{
 }
 
 .botao {
-    color: var(--bege-background);
+    color: var(--branco);
     background-color: var(--verde-escuro);
     font-family: "Josefin Sans", 'sans-serif';
     font-weight: bold;

@@ -10,7 +10,8 @@
     border: solid;
     border-radius: 15px;
     border-color: var(--preto);
-    background-color: var(--verde-claro);
+    background-image: linear-gradient(to bottom, var(--laranja-medio), var(--verde-claro));
+    background-image: linear-gradient(var(--laranja-medio), var(--verde-claro));
 } 
 
 .plano_veg_comum {
@@ -41,11 +42,12 @@ li {
 }
 
 .plano_vegpremium {
-    background-color:var(--laranja-medio);
+    background-image: linear-gradient(to bottom, var(--laranja-medio), var(--verde-claro));
+    background-image: linear-gradient(var(--laranja-medio), var(--verde-claro));
     margin: 1em;
     padding: 1em;
     border: solid 2px;
-    border-radius: 20px;
+    border-radius: 10px;
     border-color: var(--preto);
 }
 

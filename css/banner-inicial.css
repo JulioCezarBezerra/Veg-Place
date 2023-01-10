@@ -23,7 +23,8 @@
 }
 
 .entrada_principal {
-    background: var(--laranja-medio);
+    background-image: linear-gradient(to bottom, var(--laranja-medio), var(--verde-claro));
+    background-image: linear-gradient(var(--laranja-medio), var(--verde-claro));
     border-bottom-right-radius: 300px;
     border-bottom :solid 3px var(--marrom-escuro);
     display: flex;

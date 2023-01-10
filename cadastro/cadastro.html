@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo-vegplace.png">
     <link rel="stylesheet" href="/css/reset.css">
     <link rel="stylesheet" href="/css/style.css">
-    <title>Cadastrar</title>
+    <title>Veg Place - Cadastrar</title>
 </head>
 <body>
   <header class="cabecalho_principal">
       <div class="container_cabecalho">
-          <a href="index.html"><img src="/img/logo-vegplace.png" alt="Vegan Place" class="cabecalho_principal_logo">
+          <a href="/index.html"><img src="/img/logo-vegplace.png" alt="Vegan Place" class="cabecalho_principal_logo">
         <nav class="cabecalho_principal_nav"></a>
           <a class="cabecalho_principal_nav_link" href="#nossos_restaurantes">Nossos Restaurantes</a>
           <a class="cabecalho_principal_nav_link" href="#VegPremium">Seja VegPremium</a>
@@ -25,30 +26,29 @@
       </div>
   </header>
   <div id="cadastro">
-    <h1 class="cadastre-se">Cadastre-se</h1>  
+    <h1 class="cadastre-se_margin"></h1> 
+    <div> 
+    </div>
     <form class="container_form" method="post" action=""> 
-      <p> 
-        <label for="nome_cad">Seu nome</label>
-        <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+      <h1 class="cadastre-se">Falta pouco para <br> matar sua fome!</h1> 
+      <h3>Como deseja continuar ?
+      </h3>
+      <p>
+        <a href="https://www.facebook.com/"><button class="botao_conectar_facebook"><img class="img_botao_facebook" src="/img/facebook-botao.png" alt="botão conectar com o facebook">Continuar com Facebook</button></a> 
       </p>
-      
-      <p> 
-        <label for="email_cad">Seu e-mail</label>
-        <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+
+      <p>
+        <a href="https://www.google.com/"><button class="botao_conectar_google"><img class="img_botao_google" src="/img/google-botao.png" alt="botão conectar com o google">Continuar com Google</button></a> 
       </p>
-      
+
       <p> 
-        <label for="senha_cad">Sua senha</label>
-        <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
-      </p>
-      
-      <p> 
-        <input type="submit" value="Cadastrar"/> 
+        <input class="botao" type="submit" value="Email"/> 
+        <input class="botao" type="submit" value="Celular"/> 
       </p>
       
       <p class="link">  
         Já tem conta?
-        <a href="login.html"> Ir para Login </a>
+        <a class="login_cadastre-se" href="login.html"> Ir para Login </a>
       </p>
     </form>
   </div>

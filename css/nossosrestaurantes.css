@@ -38,11 +38,12 @@
     width: 40%;
     margin: 2rem 1rem 2rem 2rem;
     border-radius: 5px;
-    background-color: var(--laranja-medio);
+    background-image: linear-gradient(to bottom, var(--laranja-medio), var(--verde-claro));
+    background-image: linear-gradient(var(--laranja-medio), var(--verde-claro));
 }
 
 .botao_buscar {
-    color: var(--bege-background);
+    color: var(--branco);
     background-color: var(--verde-escuro);
     font-family: "Josefin Sans", 'sans-serif';
     font-weight: bold;
