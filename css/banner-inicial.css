@@ -1,6 +1,6 @@
 .entrada_principal{
     border-bottom: solid var(--verdeescuro);
-    background-color: var(--bege);
+    background-color: var(--cinzaclaro);
     border-end-end-radius: 300px;
 }
 
@@ -26,6 +26,8 @@
     color: var(--quasepreto);
     font-size: 3em;
     padding-bottom: .5em;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
 }
 
 .descricao_entrada{

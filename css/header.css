@@ -20,7 +20,7 @@
 
 .cabecalho_principal_nav_link {
     text-decoration: none;
-    color: var(--cinza);
+    color: var(--quasepreto);
     font-weight: bold;
     font-size: 1rem;
     padding: 1rem;
@@ -28,39 +28,39 @@
 }
 
 :hover.cabecalho_principal_nav_link {
-    color: var(--verdeclaro);
+    color: var(--verdeescuro);
 }
 
 .cabecalho_principal_acessar_conta_link {
-    background-color:var(--verdeclaro);
+    background-color:var(--cinza);
     color: var(--branco);
     text-decoration: none;
     border: none;
     padding: 0.7rem;
-    border-radius: 8px;
+    border-radius: 30%;
     margin: 1.5rem;
     transition: .6s;
 }
 
 :hover.cabecalho_principal_acessar_conta_link {
-    background-color: var(--verdeescuro);
+    background-color: var(--quasepreto);
 }
 
 .cabecalho_principal_criar_conta_link {
     font-weight: bold;
     font-size: 1.1rem;
     text-decoration: none;
-    color: var(--cinza);
+    color: var(--quasepreto);
     transition: .6s;
 }
 
 :hover.cabecalho_principal_criar_conta_link {
-    color: var(--verdeclaro);
+    color: var(--verdeescuro);
 }
 
 .container_cabecalho {
-    background-color: var(--verde-claro);
-    border-bottom: solid 1px;
+    background: -webkit-linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 1em,transparent);
+    background: linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 4.1em,transparent);
     display: flex;
     align-items: center;
     justify-content:space-around;

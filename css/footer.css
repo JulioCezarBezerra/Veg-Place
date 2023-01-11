@@ -1,8 +1,8 @@
 .footer {
     border-top: solid 2px;
     padding-top: 2em;
-    background: -webkit-linear-gradient(to bottom,var(--verde-claro),var(--verde-claro) 3px,transparent);
-    background: linear-gradient(to bottom,var(--verde-claro),var(--verde-claro) 3px,transparent);
+    background: -webkit-linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 5em,transparent);
+    background: linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 8em,transparent);
 }
 
 .footer_container {

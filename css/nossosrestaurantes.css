@@ -82,8 +82,7 @@
 .botao_card{
     color: var(--branco);
     background-color: var(--cinza);
-    font-family: "Josefin Sans", 'sans-serif';
-    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
     padding: .8em 3em;
     font-size: 1.2rem;
     margin: 1em 1rem 0 3rem;
