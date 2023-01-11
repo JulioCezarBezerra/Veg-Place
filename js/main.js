@@ -1,11 +1,11 @@
 const swiper = new Swiper('.swiper', {
-    spaceBetween: 10,
+    spaceBetween: 1,
     slidesPerView: 5,
     navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
     },
     autoplay: {
-        delay: 1500,
+        delay: 1000,
     },
   });
