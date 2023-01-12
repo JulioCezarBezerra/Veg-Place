@@ -60,8 +60,7 @@
 }
 
 .container_cabecalho {
-    background: -webkit-linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) .5em,transparent);
-    background: linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 4em,transparent);
+    border-bottom: solid 2px var(--cinza);
     display: flex;
     align-items: center;
     justify-content:space-around;
