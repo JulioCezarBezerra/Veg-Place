@@ -21,7 +21,7 @@
 .cabecalho_principal_nav_link {
     text-decoration: none;
     color: var(--quasepreto);
-    font-weight: bold;
+    font-weight: 900;
     font-size: 1rem;
     padding: 1rem;
     transition: .6s;
@@ -32,6 +32,7 @@
 }
 
 .cabecalho_principal_acessar_conta_link {
+    font-weight: 900;
     background-color:var(--cinza);
     color: var(--branco);
     text-decoration: none;
@@ -43,11 +44,11 @@
 }
 
 :hover.cabecalho_principal_acessar_conta_link {
-    background-color: var(--quasepreto);
+    background-color: var(--verdeescuro);
 }
 
 .cabecalho_principal_criar_conta_link {
-    font-weight: bold;
+    font-weight: 900;
     font-size: 1.1rem;
     text-decoration: none;
     color: var(--quasepreto);
@@ -59,8 +60,8 @@
 }
 
 .container_cabecalho {
-    background: -webkit-linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 1em,transparent);
-    background: linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 4.1em,transparent);
+    background: -webkit-linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) .5em,transparent);
+    background: linear-gradient(to bottom,var(--cinza),var(--cinzaclaro) 4em,transparent);
     display: flex;
     align-items: center;
     justify-content:space-around;

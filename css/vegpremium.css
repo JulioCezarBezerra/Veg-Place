@@ -16,23 +16,14 @@
 .img-rodando-vegpremium {
     animation: loading 25s infinite;
 }
-@keyframes loading {
-	0% {
-		transform: rotate(0);
-	}
-	100% {
-		transform: rotate(360deg);
-	}
-}
 
 .titulo_vegpremium {
 	position: absolute;
 	width: 20%;
 	font-size: 2em;
-	font-weight: bolder;
+	font-weight: 900;
 	line-height: 2em;
 	margin-right: 3em;
-	animation: go-back 1s infinite alternate;
 }
 
 .lista1_vegpremium {
@@ -45,15 +36,6 @@
 	box-shadow: 0 0 20px 3px rgb(0 0 0 / 30%);
     animation: go-back 1s infinite alternate;
 }
-
-@keyframes go-back {
-    from {
-      transform: translatey(10px);
-    }
-    to {
-      transform: translatey(0);
-    }
-  }
 
 .titulo_lista1_vegpremium {
 	font-size: 2em;
@@ -73,8 +55,74 @@
     border-radius: 15px;
 	box-sizing: border-box;
 	max-width: 60%;
-	box-shadow: 0 0 20px 3px rgb(0 0 0 / 40%);
+	box-shadow: 0 0 20px 3px rgb(0 0 0 / 30%);
     animation: go-back 1s infinite alternate;
+}
+
+:hover.lista2_vegpremium, :focus.lista2_vegpremium, :hover.lista1_vegpremium, :focus.lista1_vegpremium {
+	box-shadow: 0 0 20px 3px rgb(0 0 0 / 50%);
+}
+
+  .titulo_lista2_vegpremium {
+	font-size: 2em;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+.lista2_vegpremium_el {
+	padding-bottom: 1em;
+	font-size: 1.2em;
+}
+
+.planos_precos{
+	background-image: url(/img/laranja-background.png);
+	background-repeat: no-repeat;
+	margin-bottom: 4em;
+}
+
+.planos_titulo {
+	color: var(--cinza);
+	text-align: left;
+	margin: 4em 0 2em 3em;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.container_precos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	animation: go-back 1s infinite alternate;
+}
+
+.plano_x {
+	margin: 3em;
+	padding: 2em;
+	width: 20%;
+	border-radius: 5px;
+	box-shadow: 0 0 20px 3px rgb(0 0 0 / 10%);
+	transition: box-shadow 1s;
+}
+
+:hover.plano_x, :focus.plano_x {
+	box-shadow: 0 0 20px 3px rgb(0 0 0 / 30%);
+}
+
+.titulo_plano_x{
+	font-size: 2em;
+	font-weight: 900;
+	padding: 0 0 .5em 0;
+}
+
+.descricao_plano_x{
+	font-weight: bold;
+}
+
+.certificacoes {
+	background-color: var(--cinzaclaro);
+}
+
+.selo{
+	margin: 5em 3em;
 }
 
 @keyframes go-back {
@@ -86,12 +134,11 @@
     }
   }
 
-  .titulo_lista2_vegpremium {
-	font-size: 2em;
-	font-weight: bold;
-	margin-bottom: 1em;
-}
-.lista2_vegpremium_el {
-	padding-bottom: 1em;
-	font-size: 1.2em;
+  @keyframes loading {
+	0% {
+		transform: rotate(0);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
 }
