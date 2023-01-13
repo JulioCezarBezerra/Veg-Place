@@ -30,6 +30,11 @@
     line-height: 2em;
     font-size: 1.2em;
     font-weight: bold;
+
+}
+
+:hover.link_termos_footer {
+    color: var(--verdeclaro);
 }
 
 .descricao_footer {
