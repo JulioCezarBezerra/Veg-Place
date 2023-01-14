@@ -79,3 +79,14 @@
 :hover.login_cadastre-se {
     color: var(--marrom-escuro);
 }
+
+
+#registration-form {
+    width: 50%;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  label {
+    font-weight: bold;
+  }

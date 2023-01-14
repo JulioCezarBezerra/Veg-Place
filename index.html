@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
@@ -17,36 +18,39 @@
     <title>Veg Place</title>
 </head>
 <body>
-    <header class="cabecalho_principal">
+    <header id="cabecalho_principal" class="cabecalho_principal">
         <div class="container_cabecalho">
+                <span id="menu_hamb" class="material-symbols-outlined">
+                menu
+                </span>
                <a href="index.html"><img src="/img/logo-vegplace.png" alt="Vegan Place" class="cabecalho_principal_logo"></a>
-            <nav class="cabecalho_principal_nav">
+            <nav id="cabecalho_principal_nav" class="cabecalho_principal_nav">
                 <a class="cabecalho_principal_nav_link" href="#nossos_restaurantes">Nossos Restaurantes</a>
                 <a class="cabecalho_principal_nav_link" href="#VegPremium">Seja VegPremium</a>
                 <a class="cabecalho_principal_nav_link" href="#nosso_app">Nosso App</a>
                 <a class="cabecalho_principal_nav_link" href="#trabalhe_conosco">Trabalhe conosco</a>
             </nav>
             <nav>
-                <a class="cabecalho_principal_criar_conta_link" href="cadastro.html">Criar Conta</a>
-                <a class="cabecalho_principal_acessar_conta_link" href="cadastro.html">Entrar</a>
+                <a id="cabecalho_principal_criar_conta_link" class="cabecalho_principal_criar_conta_link" href="cadastro.html">Criar Conta</a>
+                <a id="cabecalho_principal_acessar_conta_link" class="cabecalho_principal_acessar_conta_link" href="cadastro.html">Entrar</a>
             </nav>
         </div>
 
     </header>
-    <section class="entrada_principal">
-            <div class="banner_inicial">
+    <section id="" class="entrada_principal">
+            <div id="banner_inicial" class="banner_inicial">
                 <div class="container_entrada">
-                    <div class="container_descricao_entrada">
+                    <div id="container_descricao_entrada" class="container_descricao_entrada">
                         <h1 class="titulo_entrada">Plano <strong>VegPremium</strong> Grátis no primeiro mês!</h1>
-                        <p class="descricao_entrada">Assine agora e tenha descontos de até 15% em todas as lojas parceiras.</p>
-                        <a href="#VegPremium"><button class="botao botao_assinar">Seja VegPremium</button></a>
-                        <h3 class="titulo_pequeno">Baixe o App e aproveite!!</h3>
-                        <div class="app_buttons">
-                            <a href="#"><img src="/img/playstore.svg" alt="simbolo da playstore loja de apps do android" class="playstore_img"></a>
-                            <a href="#"><img src="/img/appstore.svg" alt="simbolo da appstore loja de apps da apple" class="appstore_img"></a>
+                        <p id="descricao_entrada" class="descricao_entrada">Assine agora e tenha descontos de até 15% em todas as lojas parceiras.</p>
+                        <a href="#VegPremium"><button id="botao_assinar" class="botao botao_assinar">Seja VegPremium</button></a>
+                        <h3 id="titulo_pequeno" class="titulo_pequeno">Baixe o App e aproveite!!</h3>
+                        <div id="app_buttons" class="app_buttons">
+                            <a href="#"><img src="/img/playstore.svg" alt="simbolo da playstore loja de apps do android" id="playstore_img" class="playstore_img"></a>
+                            <a href="#"><img src="/img/appstore.svg" alt="simbolo da appstore loja de apps da apple" id="appstore_img" class="appstore_img"></a>
                         </div>
                     </div>
-                    <img class="img_celular" src="/img/banner_celular.png" alt="mulher segurando o celular com o aplicativo Veg Place">
+                    <img id="img_celular" class="img_celular" src="/img/banner_celular.png" alt="mulher segurando o celular com o aplicativo Veg Place">
                 </div>
             </div>
     </section>
@@ -57,7 +61,7 @@
                 <h3 class="descricao_mapa_p">Os melhores restaurantes com os benefícios <strong class="strong_vegpremium">VegPremium</strong>, Seja Delivery, take away ou no estabelecimento.</p>
             </div>
             <div class="mapa_caixa">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117575.9081496654!2d-43.25778191873188!3d-22.941124048938118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante%20vegano!5e0!3m2!1spt-BR!2sbr!4v1672438706343!5m2!1spt-BR!2sbr" width="900" height="450" style="padding: 0; margin: 0 0 2em 0; box-shadow: 0 0 20px 3px rgb(0 0 0 / 30%);"; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe id="mapa_google" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d117575.9081496654!2d-43.25778191873188!3d-22.941124048938118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1srestaurante%20vegano!5e0!3m2!1spt-BR!2sbr!4v1672438706343!5m2!1spt-BR!2sbr" width="900" height="450" style="padding: 0; margin: 0 0 2em 0; box-shadow: 0 0 20px 3px rgb(0 0 0 / 30%);"; allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </section>

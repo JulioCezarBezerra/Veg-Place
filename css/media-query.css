@@ -1,0 +1,84 @@
+/*  @media (min-width:320px)  
+@media (min-width:480px) 
+@media (min-width:600px) 
+@media (min-width:801px)  
+@media (min-width:1025px)
+@media (min-width:1281px)  */
+
+/* @media (min-width:320px) {
+    /*CABEÇALHO
+
+    #cabecalho_principal_criar_conta_link {
+        display: none;
+    }
+
+    #cabecalho_principal_acessar_conta_link {
+        font-size: 0.1;
+        background-color:var(--cinza);
+        color: var(--branco);
+        text-decoration: none;
+        border: none;
+        padding: 0.3rem;
+        border-radius: 30%;
+        margin: 1.5rem;
+        transition: .6s;
+    }
+
+    #menu_hamb {
+        display: flex;
+        margin-left: 1em;
+    }
+
+    #cabecalho_principal_nav{
+        display: none;
+    }
+
+    #mapa_google {
+        width: 100%;
+        height: 10%;
+    }
+
+     /*BANNER INICIAL
+
+    #entrada_principal{
+        background:none;
+    }
+
+
+    #banner_inicial {
+        background-size:10%;
+        padding-top: 2em;
+    }
+
+    #container_descricao_entrada{
+        font-size: .5em;
+    }
+
+   #botao_assinar {
+    display: none;
+    }
+
+   #descricao_entrada{
+    font-size: 1.5em;
+    padding-bottom: 0;
+    }
+
+    #titulo_pequeno {
+        font-weight: 900;
+        font-size: 1em;
+        padding: 0;
+    }
+
+    #img_celular{
+        display: none;
+        max-width: 55%;
+    }
+    
+    #appstore_img{
+        max-width: 20%;
+    }
+    
+    #playstore_img {
+        max-width: 15%;
+    }
+}*/

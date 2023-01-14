@@ -9,6 +9,15 @@
     background-position-y: top;
 }
 
+.mapa_google {
+    width:900;
+    height:450;
+    padding: 0;
+    margin: 0 0 2em 0;
+     box-shadow: 0 0 20px 3px rgb(0 0 0 / 30%);
+}
+
+
 .descricao_mapa {
     padding: 2em;
     border-radius: 5px;  

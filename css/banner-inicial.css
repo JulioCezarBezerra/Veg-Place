@@ -33,6 +33,7 @@
 .descricao_entrada{
     color: var(--quasepreto);
     padding-bottom: 3em;
+    font-weight: 900;
 }
 
 .img_celular{
@@ -42,10 +43,10 @@
     overflow: clip;
 }
 
-.appstore_img{
-    max-width: 15%;
+#appstore_img{
+    max-width: 40%;
 }
 
-.playstore_img {
+#playstore_img {
     max-width: 15%;
 }
