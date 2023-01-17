@@ -3,6 +3,14 @@
     border-top: solid 2px var(--cinza);
 }
 
+.certificacoes {
+	background-color: var(--cinzaclaro);
+}
+
+.selo{
+	margin: 5em 3em;
+}
+
 .footer_container {
     display: flex;
     justify-content: center;

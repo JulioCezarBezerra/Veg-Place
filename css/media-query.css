@@ -6,7 +6,7 @@
 @media (min-width:1281px)  */
 
 @media (max-width:479px) {
-                                            /*CABEÇALHO*/
+                                                /*CABEÇALHO*/
 
 
 
@@ -44,7 +44,7 @@
 
 
 
-                                        /*BANNER INICIAL*/
+                                                /*BANNER INICIAL*/
 
     #entrada_principal{
         width: 100%;
@@ -100,7 +100,7 @@
     }
 
 
-                            /*MAPA*/
+                                                        /*MAPA*/
 
     #mapa {
         display: block;
@@ -130,7 +130,7 @@
     #descricao_mapa_p{
         font-size: .8em;
     }
-                            /*CARROSSEL*/
+                                                        /*CARROSSEL*/
     #swiper {
        max-width: 100%;
        max-height: 100em;
@@ -166,7 +166,7 @@
         margin: 1em 0rem 0 0rem;
     }
 
-                            /*VEGPREMIUM*/
+                                                   /*VEGPREMIUM*/
 
     #VegPremium {
         background-size: 6em;
@@ -232,7 +232,17 @@
         font-size: .6rem;
 
     }
+
+                                        /*FOOTER*/
+    #selo{
+        width: 13%;
+        margin: 1em 1em;
+    }
    
+    #descricao_footer{
+        font-size: 1em;
+        font-weight: bold;
+    }
 }
 
 

@@ -117,13 +117,6 @@
 	font-weight: bold;
 }
 
-.certificacoes {
-	background-color: var(--cinzaclaro);
-}
-
-.selo{
-	margin: 5em 3em;
-}
 
 @keyframes go-back {
     from {
