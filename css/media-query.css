@@ -40,10 +40,6 @@
         display: none;
     }
 
-    #mapa_google {
-        width: 100%;
-        height: 10%;
-    }
 
 
 
@@ -59,7 +55,7 @@
 
 
     #banner_inicial {
-        background:none;
+        background:var(--cinzaclaro);
         padding: 1.5em;
     }
 
@@ -106,6 +102,10 @@
         display: block
     }
 
+    #mapa_google {
+        width: 100%;
+        height: 10%;
+    }
 
     #descricao_mapa{
         position: center;
