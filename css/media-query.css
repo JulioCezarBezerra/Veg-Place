@@ -103,7 +103,7 @@
     }
 
     #mapa_google {
-        width: 100%;
+        width: 90%;
         height: 10%;
     }
 
@@ -113,7 +113,53 @@
         border-radius: 5px;  
         box-sizing: border-box;
         max-width: 100%;
+        margin-bottom: 2em;
     }
+
+    #nossos_restaurantes{
+        min-width: 100%;
+        font-size: 1.5em;
+    }
+
+    #descricao_mapa_p{
+        font-size: .8em;
+    }
+                            /*CARROSSEL*/
+    #swiper {
+       max-width: 100%;
+       max-height: 100em;
+    }
+
+    #card{
+        margin-right: 1em;
+    }
+
+    #img_card{
+        max-width: 100%;
+        max-height: 6em;
+    }
+    
+    #card_container {
+        text-align: left;
+        padding:1em;
+    }
+
+    #titulo_card {
+        font-size: 1em;
+        font-weight:900 ;
+        padding-bottom: 1em;
+        width: 100%;
+    }
+    #descricao_card {
+        font-size: .5em;
+    }
+
+    #botao_card{
+        padding: .4em 1em;
+        font-size: 1rem;
+        margin: 1em 0rem 0 0rem;
+    }
+
                             /*VEGPREMIUM*/
 
     #VegPremium {

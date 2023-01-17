@@ -10,18 +10,26 @@ const swiper = new Swiper('.swiper', {
     },
   });
 
-
-////CHATGPT
-
-const form = document.getElementById("registration-form");
-
-form.addEventListener("submit", (event) => {
-  event.preventDefault();
-
-  const name = form.elements.name.value;
-  const email = form.elements.email.value;
-  const password = form.elements.password.value;
-  const address = form.elements.address.value;
-
-  // Send data to server
+  var mySwiper = new Swiper ('.swiper', {
+    // opções de configuração
+    pagination: {
+        el: '.swiper-pagination',
+    },
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+          slidesPerView: 2,
+          spaceBetween: 0
+        },
+        // when window width is >= 480px
+        480: {
+          slidesPerView: 2,
+          spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+          slidesPerView: 3,
+          spaceBetween: 40
+        }
+    }
 });
