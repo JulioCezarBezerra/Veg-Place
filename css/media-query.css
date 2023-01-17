@@ -113,13 +113,17 @@
         height: 10%;
     }
 
+    #mapa_caixa{
+        padding-right: 0;
+    }
+
     #descricao_mapa{
         position: center;
         padding: 1em;
         border-radius: 5px;  
         box-sizing: border-box;
         max-width: 100%;
-        margin-bottom: 2em;
+        margin:0 0 2em 0;
     }
 
     #nossos_restaurantes{
