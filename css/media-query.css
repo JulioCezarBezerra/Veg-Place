@@ -12,6 +12,7 @@
 
     body {
         width: 100%;
+        background-color: var(--bege);
     }
 
     #cabecalho_principal_criar_conta_link {
