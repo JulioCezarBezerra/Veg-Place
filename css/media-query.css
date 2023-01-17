@@ -46,7 +46,7 @@
 
                                         /*BANNER INICIAL*/
 
-     #entrada_principal{
+    #entrada_principal{
         width: 100%;
         border-bottom: none;
         background-color: var(--cinzaclaro);
@@ -55,7 +55,7 @@
 
 
     #banner_inicial {
-        background:var(--cinzaclaro);
+        background-size: 30%;
         padding: 1.5em;
     }
 
