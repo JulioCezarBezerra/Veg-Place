@@ -40,13 +40,13 @@
 
      /*BANNER INICIAL*/
 
-    #entrada_principal{
-        background:none;
+     .entrada_principal{
+        background-color: navy;
     }
 
 
     #banner_inicial {
-        background-size:10%;
+        background:none;
         padding-top: 2em;
     }
 
