@@ -5,8 +5,8 @@
 @media (min-width:1025px)
 @media (min-width:1281px)  */
 
-/* @media (min-width:320px) {
-    /*CABEÇALHO
+@media screen and (max-width:479px) {
+    /*CABEÇALHO*/
 
     #cabecalho_principal_criar_conta_link {
         display: none;
@@ -38,7 +38,7 @@
         height: 10%;
     }
 
-     /*BANNER INICIAL
+     /*BANNER INICIAL*/
 
     #entrada_principal{
         background:none;
@@ -81,4 +81,9 @@
     #playstore_img {
         max-width: 15%;
     }
-}*/
+}
+
+
+@media (min-width:1281px) {
+    
+}
