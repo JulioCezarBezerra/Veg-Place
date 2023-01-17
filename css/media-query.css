@@ -60,7 +60,7 @@
     }
 
     #container_descricao_entrada{
-        max-width: 70%;
+        max-width: 890%;
         font-size: .4em;
         font-weight: 400;
     }
@@ -80,19 +80,23 @@
         padding: 0;
     }
 
+    #app_buttons {
+        display: flex;
+        margin-top: 2em;
+        justify-content:space-between;
+    }
+
     #img_celular{
         display: none;
-        max-width: 55%;
+        max-width: 100%;
     }
     
     #appstore_img{
-        margin-top: 1em;
-        min-width: 50%;
+        min-width: 60%;
     }
     
     #playstore_img {
-        margin-top: 1em;
-        min-width: 50%;
+        min-width: 60%;
     }
 
 
