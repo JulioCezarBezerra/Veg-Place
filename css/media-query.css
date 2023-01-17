@@ -213,7 +213,7 @@
    }
 
    #plano_x {
-    margin: 2em 0 0 0;
+    margin: 2em .5em 0 .5em;
 	padding: 1em 0;
 	width: 100%;
    }
