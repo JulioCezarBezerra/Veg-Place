@@ -6,7 +6,7 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
     autoplay: {
-        delay: 1000,
+        delay: 900,
     },
   });
 

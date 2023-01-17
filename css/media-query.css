@@ -103,7 +103,9 @@
                             /*MAPA*/
 
     #mapa {
-        display: block
+        display: block;
+        background-size: 30%;
+        padding: 2em 0 0 0;
     }
 
     #mapa_google {
@@ -167,8 +169,70 @@
                             /*VEGPREMIUM*/
 
     #VegPremium {
-        display: none;
+        background-size: 6em;
+   }
+
+   #container_vegpremium {
+    width: 100%;
+    margin-top: 1em;
+    flex-direction: column;
+   }
+
+   #titulo_vegpremium{
+    width: 40%;
+	font-size: 1em;
+	font-weight: bold;
+	line-height: 1em;
+    margin: 0 0 21em 0;
+   }
+
+    #lista1_vegpremium{
+    display: none;
+   }
+
+   #lista2_vegpremium{
+    width: 100%;
+    margin: 1em 0 0 0;
+    max-width: 90%;
+    padding: 1em;
+   }
+
+   #img-rodando-vegpremium{
+    width: 20em;
+   }
+
+   #planos_precos {
+    background-size: 4em;
+   }
+
+   #planos_titulo {
+    padding: 3.4em 0 0 2em;
+    margin: 2em 0 0em 4em;
+	font-size: 1em;
+	font-weight: 900;
+   }
+
+   #plano_x {
+    margin: 2em 0 0 0;
+	padding: 1em 0;
+	width: 100%;
+   }
+    #titulo_plano_x {
+        font-size: 1.2em;
+	    font-weight: bold;
+	    padding: 0 0 .5em 0;
     }
+
+    #descricao_plano_x{
+        font-size: .6em;
+    }
+
+    #botao{
+        padding: .5em;
+        font-size: .6rem;
+
+    }
+   
 }
 
 
