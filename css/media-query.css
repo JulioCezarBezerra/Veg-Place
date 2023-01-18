@@ -5,7 +5,7 @@
 @media (min-width:1025px)
 @media (min-width:1281px)  */
 
-@media (max-width:479px) {
+@media (max-width:1024px) {
                                                 /*CABEÇALHO*/
 
 
@@ -54,7 +54,7 @@
         z-index: 3;
         top: 0;
         left: 0;
-        background-color: var(--verdeescuro);
+        background-color: var(--cinzaclaro);
         border-right: solid 2px;
         overflow-x: hidden;
         transition: .2s;
@@ -69,13 +69,13 @@
         font-size: .8em;
         font-weight: 900;
         padding: 0;
-        margin: 0 1em;
+        margin: 3em 1em;
         line-height: 3em;
     
     }
 
     .cabecalho_principal_nav--ativo{
-        width: 40%;
+        width: 50%;
         height:100em;
     }
 
@@ -304,6 +304,5 @@
 }
 
 
-@media (min-width:1281px) {
-    
-}
+
+
