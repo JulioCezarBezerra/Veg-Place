@@ -15,6 +15,10 @@
         background-color: var(--bege);
     }
 
+    #container_cabecalho{
+        justify-content: space-between;
+    }
+
     #cabecalho_principal_criar_conta_link {
         display: none;
     }
@@ -26,7 +30,6 @@
         text-decoration: none;
         border: none;
         padding: 0.3rem;
-        margin: 1.5rem;
         transition: .6s;
     }
 
@@ -34,14 +37,47 @@
         display: flex;
         margin-left: 1em;
     }
-    
 
-    #cabecalho_principal_nav{
-        display: none;
+    #botao_header{
+        display: inline;
+        background: none;
+        border: none;
     }
 
+    .cabecalho_principal_nav{
+        display: flex;
+        flex-direction: column;
+        height: 5em;
+        width:0;
+        margin-top: 5.4em;
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: 0;
+        background-color: var(--verdeescuro);
+        border-right: solid 2px;
+        overflow-x: hidden;
+        transition: .5s;
+        padding-top: 60px;
+        position: absolute;
+    }
 
+    #cabecalho_principal_nav_link {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: .8em;
+        font-weight: 900;
+        padding: 0;
+        margin: 0 1em;
+        line-height: 3em;
+    
+    }
 
+    .cabecalho_principal_nav--ativo{
+        width: 40%;
+        height:100em;
+    }
 
 
                                                 /*BANNER INICIAL*/
@@ -237,15 +273,32 @@
 
     }
 
-                                        /*FOOTER*/
+                                                    /*FOOTER*/
     #selo{
         width: 13%;
         margin: 1em 1em;
     }
    
     #descricao_footer{
-        font-size: 1em;
+        margin-top: 1em;
+        font-size: .7em;
         font-weight: bold;
+    }
+
+    #link_termos_footer {
+        padding-top: .4em;
+        margin: .3em;
+        line-height: 1em;
+        font-size: .7em;
+        font-weight: bold;
+    }
+
+    #contato_footer {
+        font-size: .7em;
+    }
+
+    #logo_contato{
+        width: 20%;
     }
 }
 

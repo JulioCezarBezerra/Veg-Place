@@ -6,11 +6,11 @@ const swiper = new Swiper('.swiper', {
         prevEl: '.swiper-button-prev',
     },
     autoplay: {
-        delay: 900,
+        delay: 500,
     },
   });
 
-  var mySwiper = new Swiper ('.swiper', {
+var mySwiper = new Swiper ('.swiper', {
     // opções de configuração
     pagination: {
         el: '.swiper-pagination',
@@ -19,7 +19,7 @@ const swiper = new Swiper('.swiper', {
         // when window width is >= 320px
         320: {
           slidesPerView: 2,
-          spaceBetween: 0
+          spaceBetween: 20
         },
         // when window width is >= 480px
         480: {
@@ -33,3 +33,11 @@ const swiper = new Swiper('.swiper', {
         }
     }
 });
+
+
+const botaoMenu = document.querySelector('#botao_header')
+const menu = document.querySelector('#cabecalho_principal_nav')
+
+botaoMenu.addEventListener('click', () => {
+    menu.classList.toggle('cabecalho_principal_nav--ativo')
+})
