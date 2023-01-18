@@ -57,7 +57,7 @@
         background-color: var(--verdeescuro);
         border-right: solid 2px;
         overflow-x: hidden;
-        transition: .5s;
+        transition: .2s;
         padding-top: 60px;
         position: absolute;
     }
@@ -83,6 +83,7 @@
                                                 /*BANNER INICIAL*/
 
     #entrada_principal{
+        padding-top: 6em;
         width: 100%;
         border-bottom: none;
         background-color: var(--cinzaclaro);
