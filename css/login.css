@@ -1,0 +1,82 @@
+.top {
+    padding: 10em 0 5em 0;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    padding: 10em;
+    border: solid;
+    width: 40%;
+    background-color: var(--brancotransparente);
+}
+
+.titulo_login{
+    font-size: 2em;
+    font-weight: 900;
+    padding-bottom: 1em;
+}
+
+.descricao_login{
+    font-weight: 900;
+    padding-bottom: 1em;
+}
+
+.social_connect{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+.botao-facebook{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    border-radius: 10px;
+    border: none;
+    color: var(--branco);
+    background-color: rgb(64, 101, 2180) ;
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.botao-google{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3em;
+    border-radius: 10px;
+    margin-top: 1em;
+    border: none;
+    color: var(--branco);
+    background-color: var(--quasepreto);
+    font-weight: 900;
+    font-family: 'Nunito', sans-serif;
+}
+
+.google_img{
+    max-width: 30px;
+    margin-right: .3em;
+}
+
+.facebook_img{
+    max-width: 30px;
+    margin-right: .3em;
+}
+
+.bg_video{
+	position: fixed; 
+	right: 0; 
+	bottom: 0;
+	min-width: 100%; 
+	min-height: 100%;
+	width: auto; 
+	height: auto; 
+	z-index: -1000;
+	background: url(images/torre.jpg) no-repeat;
+	background-size: cover; 
+}
