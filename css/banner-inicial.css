@@ -1,11 +1,14 @@
 .entrada_principal{
     border-bottom: solid var(--verdeescuro);
     background-color: var(--cinzaclaro);
+    background: url(images/torre.jpg) no-repeat;
+	background-size: cover; 
     border-end-end-radius: 300px;
 }
 
 .banner_inicial{
     padding-top: 8em;
+    background-color: var(--brancotransparente);
     background-image: url(/img/frutas.png);
     background-repeat: no-repeat;
     background-position-y: bottom;

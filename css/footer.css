@@ -1,6 +1,7 @@
 
 .footer{
     border-top: solid 2px var(--cinza);
+    background-color: var(--branco);
 }
 
 .certificacoes {
@@ -52,4 +53,9 @@
 .descricao_footer {
     font-size: 1.2em;
     font-weight: bold;
+}
+
+.logo_footer{
+    max-width: 5%;
+    margin-right: 2em;
 }
